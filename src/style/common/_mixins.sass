@@ -1,0 +1,11 @@
+// Миксин для задания высоты и ширины
+@mixin width_height($width: 110px, $height: 110px)
+  width: $width
+  height: $height
+
+  // Миксин для создания flex-контейнера
+@mixin flexContainer($direction: row, $justify: flex-start, $align: stretch)
+  display: flex
+  flex-direction: $direction
+  justify-content: $justify
+  align-items: $align

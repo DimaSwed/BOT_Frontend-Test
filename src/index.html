@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
+
+    <title>Frontend Coach</title>
+  </head>
+  <body>
+    <!-- WELCOME PAGE -->
+    <div class="welcome show" id="display__welcome">
+      <div class="container">
+        <div class="welcome__inner inner">
+          <h1>Я - Frontend Interview помощник 🤖 <br /></h1>
+          <p>Я помогу тебе подготовиться к интервью по фронтенду!</p>
+
+          <div class="welcome__inner-wrap">
+            <button class="welcome__button">Начать тест</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TOPIC SELECTION PAGE -->
+    <div class="topic_selection hide" id="display__topic">
+      <div class="container">
+        <div class="topic_selection__inner inner">
+          <h2>С чего начнем?</h2>
+          <p>Выбери тему вопроса в меню 👇</p>
+          <div class="topic_selection__inner-wrap">
+            <button class="btn btn-next" id="html">
+              <span>'HTML'</span>
+            </button>
+            <button class="btn btn-next" id="css"><span>'CSS'</span></button>
+          </div>
+          <div class="topic_selection__inner-wrap">
+            <button class="btn btn-next" id="javascript">
+              <span>'JavaScript'</span>
+            </button>
+            <button class="btn btn-next" id="react">
+              <span>'React'</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- QUIZ PAGE -->
+    <div class="quiz hide" id="display__game">
+      <div class="container">
+        <div class="quiz__inner inner">
+          <!-- game panel -->
+          <div class="game__panel">
+            <div class="game__panel-item game__panel-true">
+              <span class="icon-true"></span>
+              <span data-counter="true">0</span>
+            </div>
+            <div class="game__panel-item game__panel-false">
+              <span class="icon-false"></span>
+              <span data-counter="false">0</span>
+            </div>
+          </div>
+          <!-- quiz panel -->
+          <div class="quiz__panel hide">
+            <div class="quiz__progress">
+              <div class="quiz__progress-title"></div>
+              <div class="quiz__progress-handler" id="quiz__progress"></div>
+            </div>
+          </div>
+
+          <!-- quiz wrap -->
+          <div class="quiz__wrap hide" data-status="question">
+            <div class="quiz__question">вопрос</div>
+
+            <div id="quiz__answers">
+              <div class="quiz__answers" data-answers="4">
+                <button class="btn" data-correct="1">
+                  <span>Вариант ответа №</span>
+                </button>
+                <button class="btn" data-correct="0">
+                  <span>Вариант ответа №</span>
+                </button>
+                <button class="btn" data-correct="0">
+                  <span>Вариант ответа №</span>
+                </button>
+                <button class="btn" data-correct="0">
+                  <span>Вариант ответа №</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- quiz true -->
+            <div class="quiz__true hide">
+              <div class="quiz__winner-answer">Правильный ответ на вопрос</div>
+              <button class="btn btn-next" id="next_question-btn">
+                <span>Следующий вопрос</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULT PAGE -->
+    <div class="rezult hide" id="rezult">
+      <div class="container">
+        <div class="rezult__inner inner">
+          <h2>Результаты тестирования</h2>
+          <p>Вы закончили тестирование. Ваши результаты:</p>
+          <div class="rezult__inner-answers">
+            <div class="rezult__inner-item">
+              <p><span>Вопрос 1:</span> Вопрос</p>
+              <p><span>Ваш ответ:</span> Ответ</p>
+              <p><span>Правильный ответ:</span> Правильный ответ</p>
+            </div>
+          </div>
+
+          <div class="rezult__inner-score"><p>Вы ответили на: 4/4</p></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+.quiz
+  &__inner
+    background-color: $dark_blue
+    padding: 2%
+    text-align: center
+    display: flex
+    flex-direction: column
+    // align-items: center
+
+    .game__panel
+      // border: 1px solid white
+      margin-bottom: 20px
+
+      span[data-counter]
+        display: block
+        width: 100%
+        max-width: 100%
+        padding: 0 0.4em
+        padding-left: 1.5em
+        // min-width: 3em
+
+      &-item
+        display: inline-block
+        background-color: #fcad1ab5
+        font-size: 1.5em
+        min-width: 3em
+        height: 1.8em
+        line-height: 1.8em
+        border-radius: 0.3em
+        position: relative
+
+        text-align: center
+
+      &-true
+        margin-right: 3em
+
+      .icon-true
+        background-image: url(../../assets/icons/correct.png)
+        @extend %icon
+
+      .icon-false
+        background-image: url(../../assets/icons/wrong.png)
+        @extend %icon
+
+      // &-false
+        // margin-right: 0.8rem
+
+    .quiz__panel
+      // border: 1px solid white
+      margin-bottom: 20px
+      display: flex
+      align-items: center
+      justify-content: center
+      position: relative
+
+      .quiz__progress
+        width: 500px
+        height: 30px
+        background-color: rgb(21, 30, 52)
+        border: 1px solid $back
+        border-radius: 15px
+        overflow: hidden
+
+        &-title
+          position: absolute
+          font-size: 1.5em
+          line-height: 1.2em
+          // width: 4em
+          left: calc(50% - 5em)
+
+        &-handler
+          height: 100%
+          width: 0
+          background-color: rgb(228, 159, 31)
+          transition: width 0.5s ease-in-out
+
+    .quiz__wrap
+      border: 1px solid white
+      border-radius: 2em
+      flex: auto
+      padding: 5%
+      display: flex
+      flex-direction: column
+
+      .quiz__question
+        font-size: 1.3em
+        font-weight: 800
+        max-width: 600px
+        margin: 0 auto
+        margin-bottom: 50px
+        text-transform: uppercase
+
+      .quiz__answers
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        grid-template-rows: repeat(2, 1fr)
+        gap: 30px
+
+        .btn
+          font-size: 1.2em
+          font-weight: 600
+          margin: 0 auto
+          text-align: left
+
+    .quiz__true
+      border: 1px solid $back
+      background-color: rgb(9, 15, 31)
+
+      .quiz__winner-answer
+        font-size: 1.3em
+        font-weight: 800
+        max-width: 600px
+        margin: 0 auto
+        padding: 2%
+        margin-bottom: 20px
+
+      .btn
+        font-size: 1.3em
+        font-weight: 600
+
+      .btn-next:after
+        top: 28px

@@ -1,0 +1,46 @@
+body
+  max-width: 1920px
+  background: $back
+  margin: 0 auto
+  font: normal 62.5% $font_family__main
+  font-size: $text-size
+  line-height: normal
+  font-weight: 400
+  font-style: normal
+  color: $text
+  -webkit-appearance: none
+  -webkit-font-smoothing: antialiased
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+
+button,
+input,
+textarea
+  -webkit-font-smoothing: antialiased
+
+.container
+  width: 100%
+  max-width: 1200px
+  padding: 0 20px
+  margin: 0 auto
+
+.inner
+  color: $text
+  @include width_height($width: 1200px, $height: 700px)
+  @extend %extend__text
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+
+img
+  display: block
+
+a
+  text-decoration: none
+
+.show
+  display: block
+
+.hide
+  display: none

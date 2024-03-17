@@ -1,0 +1,53 @@
+.rezult
+  &__inner
+    background-color: $dark_blue
+    padding: 3%
+    display: flex
+    flex-direction: column
+    align-items: center
+    height: auto
+
+    h2
+      font-size: 2.5em
+      font-weight: 900
+      margin-bottom: 20px
+      text-transform: uppercase
+      text-decoration: underline
+      max-width: 800px
+
+    p
+      font-size: 1.3em
+      margin-bottom: 20px
+      max-width: 600px
+
+    &-answers
+      display: grid
+      grid-template-columns: repeat(3, 1fr)
+      grid-template-rows: repeat(2, 1fr)
+      gap: 10px
+
+      .rezult__inner-item
+        display: flex
+        flex-direction: column
+        margin-bottom: 5px
+        border: 1px solid $back
+
+        p
+          font-size: 0.9em
+          margin-bottom: 5px
+
+          span
+            text-decoration: underline
+            margin-bottom: 5px
+            font-weight: 800
+            color: $back
+
+    &-score
+      display: flex
+      margin-top: 20px
+
+      p
+        font-size: 1.3em
+        font-weight: 800
+        text-transform: uppercase
+        text-decoration: underline

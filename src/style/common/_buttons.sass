@@ -1,0 +1,140 @@
+// Welcome_page button
+.welcome__button
+  @include width_height($width: 300px, $height: 60px)
+  font-size: 1.7em
+  text-transform: uppercase
+  letter-spacing: 1.3px
+  font-weight: 700
+  color: $text
+  background: $back
+  background: linear-gradient(90deg, rgba(228,159,31,1) 0%, #0036e8 100%)
+  border: none
+  border-radius: 1000px
+  box-shadow: 12px 12px 24px rgba(228,159,31,.64)
+  transition: all 0.3s ease-in-out 0s
+  cursor: pointer
+  outline: none
+  position: relative
+  padding: 10px
+
+  &::before
+    content: ''
+    border-radius: 1000px
+    min-width: calc(300px + 12px)
+    min-height: calc(60px + 12px)
+    border: 6px solid $back
+    box-shadow: 0 0 60px rgba(228,159,31,.64)
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    opacity: 0
+    transition: all .3s ease-in-out 0s
+
+    &:hover,
+    &:focus
+      color: #313133
+      transform: translateY(-6px)
+
+  &:hover::before,
+  &:focus::before
+    opacity: 1
+
+  &::after
+    content: ''
+    width: 30px
+    height: 30px
+    border-radius: 100%
+    border: 6px solid $back
+    position: absolute
+    z-index: -1
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    animation: ring 1.5s infinite
+
+  &:hover::after,
+  &:focus::after
+    animation: none
+    display: none
+
+  @keyframes ring
+    0%
+      width: 30px
+      height: 30px
+      opacity: 1
+
+    100%
+      width: 300px
+      height: 300px
+      opacity: 0
+
+// Topic-section btns
+.btn
+  @include width_height($width: 300px, $height: 80px)
+  border-radius: 4px
+  background-color: $back
+  border: none
+  color: $dark_blue
+  text-align: center
+  font-size: 2em
+  padding: 16px
+  transition: all 0.5s
+  cursor: pointer
+  margin: 15px
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7)
+
+// Next btn
+.btn-next
+  display: inline-block
+  position: relative
+  transition: 0.5s
+  font-weight: 600
+
+.btn-next:after
+  content: '»'
+  position: absolute
+  opacity: 0
+  top: 22px
+  right: 0px
+  transition: 0.5s
+
+.btn-next:hover
+  padding-right: 24px
+  padding-left: 8px
+
+.btn-next:hover:after
+  opacity: 1
+  right: 20px
+
+// Disabled btn
+.btn:disabled
+  cursor: not-allowed
+  background-color: red
+
+// Answer btn
+
+.btn-false
+  background-color: red
+
+// textarea
+
+.textarea
+  @include width_height($width: 600px, $height: 100px)
+  font-size: 1em
+  letter-spacing: 1.3px
+  font-weight: 500
+  color: $dark_blue
+  background: $back
+  border: none
+  padding: 15px
+  position: absolute
+  top: 60%
+  left: 50%
+  transform: translate(-50%, -50%)
+
+.btn-absolute
+  position: absolute
+  top: 80%
+  left: 50%
+  transform: translate(-50%, -50%)
