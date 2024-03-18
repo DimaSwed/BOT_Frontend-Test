@@ -23,20 +23,11 @@ window.addEventListener('DOMContentLoaded', () => {
   startQuiz(startQuizBtn, welcomePageSelector, topicSelectionPageSelector);
 
   // Добавляем обработчики событий для кнопок тем
-  document
-    .getElementById('html')
-    .addEventListener('click', () => handleTopicClick('html'));
-  document
-    .getElementById('css')
-    .addEventListener('click', () => handleTopicClick('css'));
-  document
-    .getElementById('javascript')
-    .addEventListener('click', () => handleTopicClick('javascript'));
-  document
-    .getElementById('react')
-    .addEventListener('click', () => handleTopicClick('react'));
+  ['html', 'css', 'javascript', 'react'].forEach(topic => {
+    const topicBtn = document.getElementById(topic);
+    topicBtn.addEventListener('click', () => handleTopicClick(topic));
+  });
 
-  // const askedQuestions = [];
   let currentQuestion = 1;
 
   // HANDLE TOPIC CLICK - функция выбора темы
@@ -52,19 +43,14 @@ window.addEventListener('DOMContentLoaded', () => {
     togglePage('#display__topic', false);
     togglePage('#display__game', true);
 
-    // Отображаем вопросы из выбранной темы
-    showQuestion(questions);
+    showQuestionAndAssignEventListeners(questions);
 
     // Обновляем результаты прогресс бара
     updateProgressBar(questions, topic);
-
-    // Получаем все кнопки ответов
-    assignEventListeners(questions);
   }
 
   // SHOW QUESTION - функция отображает вопрос
-  let rightAnswers = [];
-  function showQuestion(questions) {
+  function showQuestionAndAssignEventListeners(questions) {
     // Получаем индекс текущего вопроса
     const currentIndex = currentQuestion - 1;
 
@@ -83,10 +69,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Очищаем блок с вариантами ответов или поле для ввода
     const quizAnswers = document.querySelector('.quiz__answers');
-    if (!quizAnswers) {
-      console.error('Элемент .quiz__answers не найден.');
-      return; // Прекращаем выполнение функции, если элемент не найден
-    }
     quizAnswers.innerHTML = '';
 
     // Отображаем варианты ответов из базы данных
@@ -95,6 +77,9 @@ window.addEventListener('DOMContentLoaded', () => {
       button.classList.add('btn');
       button.textContent = `${index + 1}) ${option.text}`;
       button.setAttribute('data-correct', option.isCorrect ? '1' : '0');
+      button.addEventListener('click', () =>
+        handleAnswerClick(button, questions),
+      );
       quizAnswers.appendChild(button);
     });
   }
@@ -119,62 +104,31 @@ window.addEventListener('DOMContentLoaded', () => {
   const userAnswers = [];
 
   function handleAnswerClick(button, questions) {
+    const isCorrect = button.getAttribute('data-correct') === '1';
+
     updateCounter(button);
 
-    const isCorrect = button.dataset.correct === '1';
     const winnerAnswerDiv = document.querySelector('.quiz__winner-answer');
 
-    // Добавляем ответ пользователя в массив
     userAnswers.push(button.textContent);
 
-    // Добавляем класс и делаем кнопку неактивной для неправильных ответов
     if (!isCorrect) {
       button.classList.add('btn-false');
-
-      // Прячем блок с кнопками ответов
-      // Отображаем блок с правильным ответом
-      togglePage('#quiz__answers', false);
-      togglePage('.quiz__true', true);
-
-      // Устанавливаем текст в блоке с правильным ответом
-      winnerAnswerDiv.textContent = `${button.textContent} - не правильный ответ`;
     }
 
-    // Для правильных ответов
-    if (isCorrect) {
-      // Прячем блок с кнопками ответов
-      // Отображаем блок с правильным ответом
-      togglePage('#quiz__answers', false);
-      togglePage('.quiz__true', true);
+    togglePage('#quiz__answers', false);
+    togglePage('.quiz__true', true);
+    winnerAnswerDiv.textContent = isCorrect
+      ? `${button.textContent} - правильный ответ`
+      : `${button.textContent} - не правильный ответ`;
 
-      // Устанавливаем текст в блоке с правильным ответом
-      winnerAnswerDiv.textContent = `${button.textContent} - правильный ответ`;
-    }
-
-    // Проверяем, если текущий вопрос последний
     if (currentQuestion === questions.length) {
-      // Если последний, вызываем функцию showResults
       showResults(questions);
     } else {
-      // Иначе, переходим к следующему вопросу
       nextQuestion(nextQuestionSelectBtn);
     }
 
     currentQuestion++;
-  }
-
-  // ASSIGN EVENT LISTENERS - Перебор кнопок и при нажатии вызов handleAnswerClick
-
-  function assignEventListeners(questions) {
-    // Получаем все кнопки ответов
-    const answerButtons = document.querySelectorAll('.quiz__answers button');
-
-    // Перебираем все кнопки и назначаем обработчик события на каждую из них
-    answerButtons.forEach(button => {
-      button.addEventListener('click', () =>
-        handleAnswerClick(button, questions),
-      );
-    });
   }
 
   // UPDATE PROGRESS BAR - функция изменения прогрессбара
