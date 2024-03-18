@@ -186,6 +186,470 @@
         { "id": 3, "text": "styles", "isCorrect": false },
         { "id": 4, "text": "stylesheet", "isCorrect": false }
       ]
+    },
+    {
+      "id": 18,
+      "text": "Какой атрибут используется для указания языка программирования в теге <script>?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "lang", "isCorrect": true },
+        { "id": 2, "text": "language", "isCorrect": false },
+        { "id": 3, "text": "script-language", "isCorrect": false },
+        { "id": 4, "text": "programming-language", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 19,
+      "text": "Какой тег используется для создания ссылки на внешний файл стилей?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<style>", "isCorrect": false },
+        { "id": 2, "text": "<link>", "isCorrect": true },
+        { "id": 3, "text": "<css>", "isCorrect": false },
+        { "id": 4, "text": "<external>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 20,
+      "text": "Какой тег используется для создания списка опций в выпадающем списке?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<option>", "isCorrect": true },
+        { "id": 2, "text": "<list>", "isCorrect": false },
+        { "id": 3, "text": "<select>", "isCorrect": false },
+        { "id": 4, "text": "<dropdown>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 21,
+      "text": "Какой тег используется для создания области текста на веб-странице?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<text>", "isCorrect": false },
+        { "id": 2, "text": "<textarea>", "isCorrect": true },
+        { "id": 3, "text": "<input>", "isCorrect": false },
+        { "id": 4, "text": "<textfield>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 22,
+      "text": "Какой тег используется для создания ненумерованного списка?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<ul>", "isCorrect": true },
+        { "id": 2, "text": "<ol>", "isCorrect": false },
+        { "id": 3, "text": "<li>", "isCorrect": false },
+        { "id": 4, "text": "<list>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 23,
+      "text": "Какой атрибут HTML используется для установки ширины ячейки в таблице?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "width", "isCorrect": true },
+        { "id": 2, "text": "size", "isCorrect": false },
+        { "id": 3, "text": "cell-width", "isCorrect": false },
+        { "id": 4, "text": "cell-size", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 24,
+      "text": "Какой атрибут HTML используется для добавления всплывающей подсказки к элементу?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "tooltip", "isCorrect": false },
+        { "id": 2, "text": "title", "isCorrect": true },
+        { "id": 3, "text": "hint", "isCorrect": false },
+        { "id": 4, "text": "popup", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 25,
+      "text": "Какой атрибут HTML используется для установки высоты ячейки в таблице?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "height", "isCorrect": true },
+        { "id": 2, "text": "size", "isCorrect": false },
+        { "id": 3, "text": "cell-height", "isCorrect": false },
+        { "id": 4, "text": "cell-size", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 26,
+      "text": "Какой тег используется для создания неразрывного пробела?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<space>", "isCorrect": false },
+        { "id": 2, "text": "<nbsp>", "isCorrect": false },
+        { "id": 3, "text": "<nonbreak>", "isCorrect": false },
+        { "id": 4, "text": "<nobr>", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 27,
+      "text": "Какой атрибут используется для указания типа ввода в элементе <input>?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "type", "isCorrect": true },
+        { "id": 2, "text": "input-type", "isCorrect": false },
+        { "id": 3, "text": "input", "isCorrect": false },
+        { "id": 4, "text": "datatype", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 28,
+      "text": "Какой тег используется для создания гипертекстовой кнопки?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<button>", "isCorrect": true },
+        { "id": 2, "text": "<hyperlink>", "isCorrect": false },
+        { "id": 3, "text": "<link>", "isCorrect": false },
+        { "id": 4, "text": "<href>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 29,
+      "text": "Какой атрибут используется для добавления стиля к элементу внутри тега?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "style", "isCorrect": true },
+        { "id": 2, "text": "class", "isCorrect": false },
+        { "id": 3, "text": "id", "isCorrect": false },
+        { "id": 4, "text": "type", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 30,
+      "text": "Какой тег используется для создания нумерованного списка?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<ul>", "isCorrect": false },
+        { "id": 2, "text": "<ol>", "isCorrect": true },
+        { "id": 3, "text": "<li>", "isCorrect": false },
+        { "id": 4, "text": "<list>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 31,
+      "text": "Какой тег используется для создания подзаголовка на веб-странице?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<h2>", "isCorrect": true },
+        { "id": 2, "text": "<h3>", "isCorrect": false },
+        { "id": 3, "text": "<subheader>", "isCorrect": false },
+        { "id": 4, "text": "<header>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 32,
+      "text": "Какой атрибут HTML используется для создания маркера в списке?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "marker", "isCorrect": false },
+        { "id": 2, "text": "list-marker", "isCorrect": false },
+        { "id": 3, "text": "marker-style", "isCorrect": false },
+        { "id": 4, "text": "type", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 33,
+      "text": "Какой атрибут HTML используется для указания URL-адреса, на который следует перенаправить пользователя после отправки формы?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "url", "isCorrect": false },
+        { "id": 2, "text": "link", "isCorrect": false },
+        { "id": 3, "text": "href", "isCorrect": false },
+        { "id": 4, "text": "action", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 34,
+      "text": "Какой тег используется для создания заголовка у блока на веб-странице?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<heading>", "isCorrect": false },
+        { "id": 2, "text": "<header>", "isCorrect": false },
+        { "id": 3, "text": "<h>", "isCorrect": false },
+        { "id": 4, "text": "<h3>", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 35,
+      "text": "Для чего используется атрибут 'placeholder'?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Для отображения текстовой подсказки в поле формы",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Для установки фонового изображения",
+          "isCorrect": false
+        },
+        { "id": 3, "text": "Для определения цвета текста", "isCorrect": false },
+        { "id": 4, "text": "Для создания анимации", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 36,
+      "text": "Как создать непронумерованный список в HTML?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "С помощью тега <ul>, а каждый пункт списка - с помощью тега <li>",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "С помощью тега <ol>, а каждый пункт списка - с помощью тега <li>",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "С помощью тега <ul>, а каждый пункт списка - с помощью тега <ul>",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "С помощью тега <li>, а каждый пункт списка - с помощью тега <ul>",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "text": "Что такое HTML?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "HTML (HyperText Markup Language) - это язык программирования",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "HTML - это стандарт, определяющий структуру веб-страницы с помощью тегов и атрибутов",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "HTML - это формат изображения",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "HTML - это стандарт кодирования звука",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "text": "Что делает тег <!DOCTYPE>?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Определяет заголовок документа",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Устанавливает кодировку документа",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Определяет тип документа и его версию",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Определяет мета-информацию о странице",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "text": "Что такое семантические теги в HTML?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Теги, которые определяют стиль и внешний вид содержимого",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Теги, которые передают информацию о смысле или назначении содержимого",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Теги, которые используются только для стилизации текста",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Теги, которые не влияют на внешний вид веб-страницы",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "text": "Что делает атрибут 'readonly' в элементе формы?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Делает элемент формы доступным только для чтения",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Определяет обязательное поле для заполнения",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Устанавливает максимальную длину ввода",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Ограничивает ввод только числами",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "text": "Что такое веб-стандарты и зачем они нужны?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Рекомендации для разработки веб-сайтов",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Рекомендации для обеспечения совместимости и устойчивости веб-технологий",
+          "isCorrect": true
+        },
+        { "id": 3, "text": "Правила написания CSS-стилей", "isCorrect": false },
+        {
+          "id": 4,
+          "text": "Спецификации для создания веб-браузеров",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "text": "Что такое отзывчивый (responsive) веб-дизайн?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Подход к веб-дизайну, который позволяет страницам отображаться корректно на различных устройствах",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Спецификация для создания адаптивных изображений",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Технология для анализа производительности веб-страниц",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Методика оптимизации скорости загрузки страницы",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "text": "Что делает тег <br>?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Определяет область для вставки изображения",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Создает новую строку без изменения абзаца",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Определяет заголовок для блока контента",
+          "isCorrect": false
+        },
+        { "id": 4, "text": "Устанавливает размер текста", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 44,
+      "text": "Что такое DOM в контексте веб-разработки?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Способ организации файлов на веб-сервере",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Подход к разработке динамических веб-приложений",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Программный интерфейс для веб-документов",
+          "isCorrect": true
+        },
+        { "id": 4, "text": "Стандарт кодирования текста", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 45,
+      "text": "Что такое атрибут 'alt' в теге <img>?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Устанавливает выравнивание изображения",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Определяет размер изображения",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Предоставляет альтернативный текст для изображения",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Определяет цветовой фон изображения",
+          "isCorrect": false
+        }
+      ]
     }
   ],
   "css": [
@@ -276,6 +740,341 @@
         { "id": 3, "text": "[attr|=value]", "isCorrect": false },
         { "id": 4, "text": "[attr$=value]", "isCorrect": true }
       ]
+    },
+    {
+      "id": 9,
+      "text": "В чем разница между «сбросом» и «нормализацией» CSS? Что бы вы выбрали и почему?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Сброс (reset) устанавливает стандартные стили для всех элементов, а Normalize приводит стили к единому виду в различных браузерах",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Normalize сбрасывает все встроенные в браузер стили элементов, а сброс устанавливает стандартные стили",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Сброс (reset) сбрасывает все встроенные в браузер стили элементов, а Normalize приводит стили к единому виду во всех браузерах",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Сброс (reset) применяется к стилям внутри блоков, а Normalize применяется к стилям элементов",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Что такое специфичность селекторов CSS и как она работает?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Это свойство определяет, какие стили применятся к элементу при конфликте стилей",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Это свойство определяет, какие стили применятся к элементу в зависимости от его расположения на странице",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Это свойство определяет порядок применения стилей к элементу",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Это свойство определяет количество селекторов в правиле CSS",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Что такое CSS?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Язык программирования для создания динамических веб-сайтов",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Язык стилей, используемый для описания внешнего вида веб-страниц",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Язык разметки для создания структуры веб-страниц",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Язык запросов для работы с базами данных на веб-сервере",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Почему, как правило, лучше разместить подключение CSS в <head>, а <script> перед тэгом </body>? Знаете ли вы какие-либо исключения, приведите примеры?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "CSS подключается в head, чтобы страница быстрее приняла свой внешний вид, а скрипты перед </body> для оптимизации загрузки",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "CSS подключается перед </body>, чтобы стили применились к странице раньше, а скрипты в head для улучшения SEO",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "CSS и скрипты следует размещать в head для ускорения загрузки страницы",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "CSS и скрипты размещаются перед </body> для лучшей кроссбраузерной совместимости",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Что делает свойство 'z-index' в CSS?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Устанавливает высоту элемента",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Устанавливает порядок отображения элементов по оси X",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Контролирует стековый порядок элементов по оси Z",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Устанавливает порядок отображения элементов по оси Y",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Какие есть способы отцентровать div?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Использование свойств margin и auto",
+          "isCorrect": true
+        },
+        { "id": 2, "text": "Использование Flexbox", "isCorrect": true },
+        { "id": 3, "text": "Использование Grid Layout", "isCorrect": true },
+        {
+          "id": 4,
+          "text": "Использование свойства text-align и inline-block",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "Как называется свойство CSS, которое позволяет задать размер шрифта в процентах относительно размера шрифта родительского элемента?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "font-size", "isCorrect": true },
+        { "id": 2, "text": "font-scale", "isCorrect": false },
+        { "id": 3, "text": "text-size", "isCorrect": false },
+        { "id": 4, "text": "font-percent", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 16,
+      "text": "Как называется свойство CSS, которое позволяет задать цвет текста ссылки в состоянии 'посещенной'?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "visited-color", "isCorrect": false },
+        { "id": 2, "text": "link-color", "isCorrect": false },
+        { "id": 3, "text": "visited-text-color", "isCorrect": false },
+        { "id": 4, "text": "text-visited", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 17,
+      "text": "Какое свойство CSS используется для создания эффекта перехода между состояниями элемента при изменении стилей?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "transition", "isCorrect": true },
+        { "id": 2, "text": "transform", "isCorrect": false },
+        { "id": 3, "text": "animate", "isCorrect": false },
+        { "id": 4, "text": "transition-effect", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 18,
+      "text": "Какой селектор CSS выбирает каждый третий элемент?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": ":nth-child(3n)", "isCorrect": true },
+        { "id": 2, "text": ":third-child", "isCorrect": false },
+        { "id": 3, "text": ":nth-child(3)", "isCorrect": false },
+        { "id": 4, "text": ":every-third-child", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 19,
+      "text": "Какое свойство CSS используется для установки формы курсора при наведении на элемент?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "cursor-type", "isCorrect": false },
+        { "id": 2, "text": "mouse-cursor", "isCorrect": false },
+        { "id": 3, "text": "cursor", "isCorrect": true },
+        { "id": 4, "text": "cursor-style", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 20,
+      "text": "Как называется свойство CSS, которое позволяет установить межсимвольное расстояние в тексте?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "letter-spacing", "isCorrect": true },
+        { "id": 2, "text": "word-spacing", "isCorrect": false },
+        { "id": 3, "text": "text-spacing", "isCorrect": false },
+        { "id": 4, "text": "char-spacing", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 21,
+      "text": "Какой селектор CSS выбирает последний дочерний элемент родителя?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": ":last-element", "isCorrect": false },
+        { "id": 2, "text": ":last-child", "isCorrect": true },
+        { "id": 3, "text": ":nth-last-child(1)", "isCorrect": false },
+        { "id": 4, "text": ":nth-child(last)", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 22,
+      "text": "Какое свойство CSS используется для установки обтекания элемента текстом?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "float", "isCorrect": false },
+        { "id": 2, "text": "wrap", "isCorrect": false },
+        { "id": 3, "text": "text-wrap", "isCorrect": false },
+        { "id": 4, "text": "text-flow", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 23,
+      "text": "Как называется свойство CSS, которое позволяет задать начальное значение для счетчика элемента?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "counter-increment", "isCorrect": false },
+        {
+          "id": 2,
+
+          "text": "counter-start",
+          "isCorrect": true
+        },
+        { "id": 3, "text": "counter-value", "isCorrect": false },
+        { "id": 4, "text": "counter-initial", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 24,
+      "text": "Какое свойство CSS используется для задания начального значения для маркера списка?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "list-marker", "isCorrect": false },
+        { "id": 2, "text": "marker-value", "isCorrect": false },
+        { "id": 3, "text": "list-style", "isCorrect": false },
+        { "id": 4, "text": "list-counter", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 25,
+      "text": "Какое свойство CSS используется для установки отступов внутри элемента?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "margin", "isCorrect": false },
+        { "id": 2, "text": "padding", "isCorrect": true },
+        { "id": 3, "text": "spacing", "isCorrect": false },
+        { "id": 4, "text": "indent", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 26,
+      "text": "Какой селектор CSS выбирает все элементы, которые имеют указанный класс?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": ".classname", "isCorrect": true },
+        { "id": 2, "text": "#classname", "isCorrect": false },
+        { "id": 3, "text": "classname", "isCorrect": false },
+        { "id": 4, "text": "*classname", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 27,
+      "text": "Какое свойство CSS используется для установки выравнивания элементов по горизонтали?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "vertical-align", "isCorrect": false },
+        { "id": 2, "text": "text-align", "isCorrect": true },
+        { "id": 3, "text": "align-items", "isCorrect": false },
+        { "id": 4, "text": "align-content", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 28,
+      "text": "Какой селектор CSS выбирает все ссылки с указанным href атрибутом?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "a[href]", "isCorrect": true },
+        { "id": 2, "text": "a:link", "isCorrect": false },
+        { "id": 3, "text": "a:hover", "isCorrect": false },
+        { "id": 4, "text": "a:active", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 29,
+      "text": "Какое свойство CSS используется для установки толщины границы элемента?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "border-size", "isCorrect": false },
+        { "id": 2, "text": "border-width", "isCorrect": true },
+        { "id": 3, "text": "border-style", "isCorrect": false },
+        { "id": 4, "text": "border-thickness", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 30,
+      "text": "Какой селектор CSS выбирает элементы, которые являются первыми потомками указанного элемента?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": ":first-child", "isCorrect": false },
+        { "id": 2, "text": ":first-of-type", "isCorrect": false },
+        { "id": 3, "text": "> *", "isCorrect": false },
+        { "id": 4, "text": ":first-child-of-type", "isCorrect": true }
+      ]
     }
   ],
   "javascript": [
@@ -354,6 +1153,3001 @@
         { "id": 2, "text": "filter()", "isCorrect": true },
         { "id": 3, "text": "reduce()", "isCorrect": false },
         { "id": 4, "text": "forEach()", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Что такое hoisting в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Это механизм в JavaScript, при котором переменные и объявления функций перемещаются на верх своей области видимости перед выполнением кода.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Это механизм в JavaScript, который перемещает все объявления переменных и функций в конец блока кода.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Это способность JavaScript автоматически поднимать ошибки в коде.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Это механизм в JavaScript, который позволяет выполнить операцию деления на ноль без ошибки.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Что такое this в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Это ключевое слово, которое используется для создания объектов в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Это ключевое слово, которое указывает на текущий объект, в контексте которого вызван метод или функция.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Это ключевое слово, которое используется для объявления переменных в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Это ключевое слово, которое указывает на предыдущий объект, в контексте которого вызван метод или функция.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Что такое замыкание (closure) в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Это механизм, который предотвращает утечку памяти в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Это способность функции запоминать лексическое окружение, в котором она была создана, то есть хранить в себе ссылку на это окружение и обращаться к нему.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Это способность JavaScript автоматически определять типы данных в коде.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Это способность JavaScript обрабатывать исключения и ошибки в коде.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Что такое Promise (обещание) в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Promise в JavaScript представляет собой объект, который представляет завершение (или не выполнение) асинхронной операции и ее результат.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Promise в JavaScript представляет собой ключевое слово, которое используется для создания обещаний.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Promise в JavaScript представляет собой функцию, которая выполняется после завершения асинхронной операции.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Promise в JavaScript представляет собой событие, которое происходит после завершения асинхронной операции.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Что такое деструктуризация (destructuring) в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Это механизм в JavaScript, который позволяет извлекать элементы из массива и присваивать их переменным в более удобной форме.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Это механизм в JavaScript, который позволяет удалять свойства из объекта.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Это механизм в JavaScript, который позволяет преобразовывать объекты в массивы.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Это механизм в JavaScript, который позволяет преобразовывать массивы в объекты.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Что такое стрелочные функции (arrow functions) в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Это функции в JavaScript, которые используют ключевое слово 'arrow' для указания тела функции.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Это функции в JavaScript, которые записываются в виде '=>'.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Это функции в JavaScript, которые всегда имеют свое собственное значение 'this'.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Это функции в JavaScript, которые используются для объявления классов.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Какой метод используется для преобразования строки в массив символов в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "split()", "isCorrect": true },
+        { "id": 2, "text": "concat()", "isCorrect": false },
+        { "id": 3, "text": "join()", "isCorrect": false },
+        { "id": 4, "text": "slice()", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "Какой метод используется для добавления элемента в начало массива в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "splice()", "isCorrect": false },
+        { "id": 2, "text": "push()", "isCorrect": false },
+        { "id": 3, "text": "unshift()", "isCorrect": true },
+        { "id": 4, "text": "shift()", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 16,
+      "text": "Что такое асинхронные функции (async/await) в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Это функции, которые всегда выполняются синхронно.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Это способ работы с асинхронными операциями, который позволяет писать код в стиле синхронных операций.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Это функции, которые не могут вызываться асинхронно.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Это способ выполнения операций параллельно.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "text": "Какое ключевое слово используется для объявления переменной в JavaScript, чтобы она имела локальную область видимости?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "var", "isCorrect": false },
+        { "id": 2, "text": "let", "isCorrect": true },
+        { "id": 3, "text": "const", "isCorrect": false },
+        { "id": 4, "text": "local", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 18,
+      "text": "Какой тип данных в JavaScript используется для представления дробных чисел?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "number", "isCorrect": true },
+        { "id": 2, "text": "float", "isCorrect": false },
+        { "id": 3, "text": "decimal", "isCorrect": false },
+        { "id": 4, "text": "fraction", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 19,
+      "text": "Что такое массив в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Массив в JavaScript представляет собой упорядоченный набор элементов одного типа данных.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Массив в JavaScript представляет собой неупорядоченный набор элементов разных типов данных.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Массив в JavaScript представляет собой упорядоченный набор элементов разных типов данных.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Массив в JavaScript представляет собой неупорядоченный набор элементов одного типа данных.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "text": "Какое событие происходит, когда страница полностью загружена?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "onload", "isCorrect": true },
+        { "id": 2, "text": "onready", "isCorrect": false },
+        { "id": 3, "text": "onloaded", "isCorrect": false },
+        { "id": 4, "text": "oncomplete", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 21,
+      "text": "Какое ключевое слово используется для прерывания выполнения цикла в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "break", "isCorrect": true },
+        { "id": 2, "text": "exit", "isCorrect": false },
+        { "id": 3, "text": "continue", "isCorrect": false },
+        { "id": 4, "text": "return", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 22,
+      "text": "Какой оператор используется для проверки типа данных в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "typeof", "isCorrect": true },
+        { "id": 2, "text": "checktype", "isCorrect": false },
+        { "id": 3, "text": "datatype", "isCorrect": false },
+        { "id": 4, "text": "checkof", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 23,
+      "text": "Какой метод используется для вычисления длины строки в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "length()", "isCorrect": false },
+        { "id": 2, "text": "size()", "isCorrect": false },
+        { "id": 3, "text": "count()", "isCorrect": false },
+        { "id": 4, "text": "length", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 24,
+      "text": "Какое ключевое слово используется для создания нового экземпляра объекта в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "new", "isCorrect": true },
+        { "id": 2, "text": "create", "isCorrect": false },
+        { "id": 3, "text": "instantiate", "isCorrect": false },
+        { "id": 4, "text": "instance", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 25,
+      "text": "Что такое асинхронность в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Это способность JavaScript выполнять несколько операций одновременно.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Это способность JavaScript выполнять операции в порядке их поступления.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Это возможность JavaScript выполнять операции без блокировки основного потока выполнения.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Это способность JavaScript автоматически определять порядок выполнения операций.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "text": "Что такое блокирующая и не блокирующая асинхронность в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Блокирующая асинхронность останавливает выполнение других операций до завершения текущей, в то время как не блокирующая асинхронность позволяет выполнение других операций во время выполнения текущей.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Блокирующая асинхронность не допускает выполнение других операций до завершения текущей, а не блокирующая асинхронность не требует ожидания завершения текущей операции для выполнения других.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Блокирующая асинхронность выполняется в отдельном потоке, в то время как не блокирующая асинхронность выполняется в основном потоке.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Блокирующая асинхронность требует явного указания, а не блокирующая асинхронность выполняется по умолчанию.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "text": "Что такое строгий режим (use strict) в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Строгий режим это режим работы JavaScript, который требует строгого соответствия качества кода.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Строгий режим это режим работы JavaScript, который предотвращает использование опасных конструкций и улучшает безопасность кода.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Строгий режим это режим работы JavaScript, который ускоряет выполнение кода за счет оптимизаций компилятора.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Строгий режим это режим работы JavaScript, который позволяет использовать устаревшие синтаксические конструкции.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "text": "Какие правила следует соблюдать при именовании переменных в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Переменные в JavaScript должны начинаться с символа $ или .",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Переменные в JavaScript должны содержать только буквы, цифры, знаки подчеркивания () или доллара ($).",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Переменные в JavaScript могут быть любой длины и содержать любые символы.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Переменные в JavaScript должны начинаться с буквы или символа $, а далее могут содержать буквы, цифры или знаки подчеркивания (_).",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "text": "Какие типы данных в JavaScript относятся к примитивным типам?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "string, number, boolean, null, undefined, symbol, object",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "string, number, boolean, null, undefined, symbol",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "string, number, boolean, symbol",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "number, boolean, null, undefined",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "text": "Что означает термин 'динамическая типизация' в контексте JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "JavaScript автоматически преобразует типы данных в процессе выполнения кода.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "JavaScript требует явного указания типов данных для всех переменных.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "JavaScript позволяет менять типы данных переменных в процессе выполнения кода.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "JavaScript обязывает использовать строгую типизацию для всех переменных.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "text": "В чем разница между объектами и массивами в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Объекты могут содержать только ключи и значения, а массивы содержат упорядоченные коллекции элементов.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Объекты могут содержать неупорядоченные коллекции пар ключ-значение, а массивы содержат упорядоченные коллекции элементов.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Объекты могут содержать только один тип данных, а массивы могут содержать разные типы данных.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Объекты могут содержать только числовые значения, а массивы могут содержать любые значения.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "text": "Какие неочевидные синтаксические возможности есть в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Оператор 'void' может быть использован для предотвращения возвращения значения из функции.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "JavaScript позволяет использовать любые символы в именах переменных, включая эмодзи.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Символ '!' перед значением переменной преобразует ее в логический тип данных.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "JavaScript автоматически преобразует числовые значения в строки при необходимости.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "text": "Какие операторы могут использоваться для работы с промисами в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "then() и catch()", "isCorrect": true },
+        { "id": 2, "text": "await и async", "isCorrect": false },
+        { "id": 3, "text": "resolve() и reject()", "isCorrect": false },
+        { "id": 4, "text": "promise() и fulfill()", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 34,
+      "text": "Что такое оператор 'await' в контексте работы с промисами?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Оператор 'await' используется для выполнения асинхронной операции и ожидания ее результата перед продолжением выполнения кода.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Оператор 'await' используется для прерывания выполнения кода до завершения асинхронной операции.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Оператор 'await' используется для вызова функций, возвращающих промисы.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Оператор 'await' используется для обработки ошибок, возникающих при выполнении асинхронных операций.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "text": "Какие методы можно использовать для работы с датами в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "getDate(), getMonth(), getFullYear(), getHours(), getMinutes()",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "day(), month(), year(), hour(), minute()",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "getDay(), getMonth(), getYear(), getHours(), getMinutes()",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "date(), month(), fullYear(), hours(), minutes()",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "text": "Что такое интерполяция в контексте ECMAScript 6 (ES6)?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Интерполяция в ES6 - это процесс преобразования строк с использованием шаблонных литералов и выражений ${}.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Интерполяция в ES6 - это процесс преобразования строк с использованием стандартных функций шаблонизации.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Интерполяция в ES6 - это процесс преобразования строк с использованием метода 'interpolate()'.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Интерполяция в ES6 - это процесс преобразования строк с использованием оператора 'interp()'.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "text": "Какие операторы используются в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Математические, логические, сравнения, присваивания и другие.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Только математические и логические.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Только присваивания и сравнения.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Только сравнения и логические.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "text": "Какие методы HTTP используются для чтения данных с сервера в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "GET", "isCorrect": true },
+        { "id": 2, "text": "POST", "isCorrect": false },
+        { "id": 3, "text": "PUT", "isCorrect": false },
+        { "id": 4, "text": "DELETE", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 39,
+      "text": "Какой метод HTTP используется для отправки данных на сервер в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "GET", "isCorrect": false },
+        { "id": 2, "text": "POST", "isCorrect": true },
+        { "id": 3, "text": "PUT", "isCorrect": false },
+        { "id": 4, "text": "DELETE", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 40,
+      "text": "Какой метод HTTP используется для обновления данных на сервере в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "GET", "isCorrect": false },
+        { "id": 2, "text": "POST", "isCorrect": false },
+        { "id": 3, "text": "PUT", "isCorrect": true },
+        { "id": 4, "text": "PATCH", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 41,
+      "text": "Какой метод HTTP используется для удаления данных с сервера в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "GET", "isCorrect": false },
+        { "id": 2, "text": "POST", "isCorrect": false },
+        { "id": 3, "text": "DELETE", "isCorrect": true },
+        { "id": 4, "text": "REMOVE", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 42,
+      "text": "Как подключить компьютер к аккаунту GitHub через SSH?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Сгенерировать SSH-ключ на компьютере и добавить его в настройках аккаунта GitHub.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Скачать SSH-ключ из аккаунта GitHub и скопировать его на компьютер.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Ввести логин и пароль от аккаунта GitHub в командной строке на компьютере.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Подключение компьютера к аккаунту GitHub через SSH невозможно.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "text": "Что делает оператор '===' в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Сравнивает значения двух переменных без учета их типов данных.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Сравнивает значения двух переменных с учетом их типов данных и значений.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Присваивает значение одной переменной другой переменной.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Проверяет, является ли значение переменной пустым или неопределенным.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "text": "Что означает термин 'протокол HTTP'?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Это стандартный набор правил и форматов, определяющих взаимодействие между клиентом и сервером в Интернете.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Это спецификация, определяющая методы доступа к базам данных через Интернет.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Это метод аутентификации и авторизации пользователей в Интернете.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Это стандарт для создания и форматирования веб-страниц и документов.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "text": "Какие типы данных могут быть переданы через протокол HTTP?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "Только текстовые данные.", "isCorrect": false },
+        { "id": 2, "text": "Только числовые данные.", "isCorrect": false },
+        { "id": 3, "text": "Текстовые и бинарные данные.", "isCorrect": true },
+        {
+          "id": 4,
+          "text": "Только структурированные данные в формате JSON.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "text": "Что такое условные операторы в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Условные операторы в JavaScript - это конструкции, которые позволяют выполнять определенные блоки кода при выполнении определенных условий.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Условные операторы в JavaScript - это операторы, которые позволяют проверять типы данных переменных.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Условные операторы в JavaScript - это операторы, которые позволяют выполнять арифметические операции в зависимости от условий.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Условные операторы в JavaScript - это операторы, которые позволяют объединять несколько условий в одно.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "text": "Какие логические операторы используются в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "AND (&&), OR (||) и NOT (!)", "isCorrect": true },
+        { "id": 2, "text": "AND (&), OR (|) и NOT ()", "isCorrect": false },
+        { "id": 3, "text": "XOR (^), NOR (~~) и NAND (&)", "isCorrect": false },
+        { "id": 4, "text": "AND (&&), OR (||) и XOR (^)", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 48,
+      "text": "Что такое циклы в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Циклы в JavaScript - это конструкции, которые позволяют выполнять определенный блок кода несколько раз до выполнения определенного условия.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Циклы в JavaScript - это операторы, которые позволяют создавать вложенные структуры данных.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Циклы в JavaScript - это конструкции, которые позволяют выполнять код в зависимости от логических условий.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Циклы в JavaScript - это операторы, которые позволяют объединять несколько условий в одно.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "text": "Для чего используются операторы break и continue в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Оператор break в JavaScript используется для выхода из цикла, а оператор continue - для перехода к следующей итерации цикла.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Оператор break в JavaScript используется для прерывания выполнения всего скрипта, а оператор continue - для продолжения выполнения цикла.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Оператор break в JavaScript используется для продолжения выполнения цикла, а оператор continue - для выхода из цикла.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Оператор break в JavaScript используется для перехода к следующей итерации цикла, а оператор continue - для выхода из цикла.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "text": "Что такое цикл в цикле (вложенный цикл) в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Цикл в цикле в JavaScript - это конструкция, в которой один цикл находится внутри другого, позволяя выполнить определенный блок кода многократно.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Цикл в цикле в JavaScript - это конструкция, в которой один цикл использует результаты другого цикла для своего выполнения.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Цикл в цикле в JavaScript - это конструкция, в которой два цикла объединяются в один для повышения производительности.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Цикл в цикле в JavaScript - это конструкция, в которой один цикл выполняется после другого.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "text": "Что означают метки в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Метки в JavaScript - это имена, используемые для идентификации циклов и блоков кода, которые могут быть использованы с операторами break и continue.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Метки в JavaScript - это специальные символы, которые используются для создания строковых констант.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Метки в JavaScript - это идентификаторы, которые используются для обращения к элементам массива.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Метки в JavaScript - это ключевые слова, используемые для определения области видимости переменных.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "text": "Как использовать оператор break в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Оператор break в JavaScript используется для выхода из цикла или команды switch.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Оператор break в JavaScript используется для продолжения выполнения цикла или команды switch.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Оператор break в JavaScript используется для выполнения определенного блока кода при выполнении условия.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Оператор break в JavaScript используется для объявления меток в коде.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "text": "Как использовать оператор continue в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Оператор continue в JavaScript используется для перехода к следующей итерации цикла.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Оператор continue в JavaScript используется для завершения выполнения цикла.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Оператор continue в JavaScript используется для выполнения определенного блока кода при выполнении условия.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Оператор continue в JavaScript используется для объявления меток в коде.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "text": "Какие типы циклов поддерживаются в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "for, while и do...while", "isCorrect": true },
+        { "id": 2, "text": "for, foreach и do...while", "isCorrect": false },
+        { "id": 3, "text": "for, while и repeat...until", "isCorrect": false },
+        { "id": 4, "text": "for, foreach и repeat...until", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 55,
+      "text": "Как использовать метки в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Метки в JavaScript используются для идентификации циклов и блоков кода, а также для управления выполнением операторов break и continue.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Метки в JavaScript используются для объявления глобальных переменных.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Метки в JavaScript используются для определения области видимости переменных.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Метки в JavaScript используются для создания строковых констант.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "text": "Что такое функции в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Функции в JavaScript - это блоки кода, которые могут быть вызваны для выполнения определенной задачи.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Функции в JavaScript - это методы объектов, которые выполняют определенные операции.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Функции в JavaScript - это переменные, которые содержат в себе набор инструкций для выполнения.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Функции в JavaScript - это свойства объектов, которые возвращают определенные значения.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "text": "Что такое стрелочные функции (arrow functions) в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Стрелочные функции в JavaScript - это новый синтаксис для объявления функций, который предоставляет более краткую запись и не имеет своего собственного 'this'.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Стрелочные функции в JavaScript - это функции, которые всегда имеют свое собственное значение 'this'.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Стрелочные функции в JavaScript - это функции, которые используют ключевое слово 'arrow' для указания тела функции.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Стрелочные функции в JavaScript - это функции, которые записываются в виде '=>'.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "text": "Какие методы и свойства доступны для работы со строками в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Методы и свойства для работы со строками в JavaScript включают в себя length, concat, indexOf, slice и многие другие.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Методы и свойства для работы со строками в JavaScript включают в себя push, pop, shift, unshift и многие другие.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Методы и свойства для работы со строками в JavaScript включают в себя push, pop, join, reverse и многие другие.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Методы и свойства для работы со строками в JavaScript включают в себя length, push, pop, slice и многие другие.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "text": "Что такое callback-функции в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Callback-функции в JavaScript - это функции, которые передаются в качестве аргументов другим функциям и вызываются после завершения определенной операции.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Callback-функции в JavaScript - это функции, которые вызывают другие функции внутри себя.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Callback-функции в JavaScript - это функции, которые используются для работы с асинхронными операциями.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Callback-функции в JavaScript - это функции, которые вызываются только при возникновении ошибок в коде.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "text": "Что такое объекты в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Объекты в JavaScript - это совокупности данных и функций, которые представляют собой сущности с определенными характеристиками и поведением.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Объекты в JavaScript - это переменные, которые содержат в себе набор инструкций для выполнения.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Объекты в JavaScript - это методы и свойства для работы с массивами данных.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Объекты в JavaScript - это функции, которые могут быть вызваны для выполнения определенной задачи.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "text": "Что такое деструктуризация объектов (ES6) в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Деструктуризация объектов в JavaScript - это синтаксис, который позволяет извлекать отдельные свойства из объектов и присваивать их переменным в более удобной форме.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Деструктуризация объектов в JavaScript - это способность объектов автоматически обновлять свои свойства.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Деструктуризация объектов в JavaScript - это способность объектов автоматически распределять свои свойства по различным уровням доступа.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Деструктуризация объектов в JavaScript - это методы и свойства для работы с объектами.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "text": "Как отловить ошибки в своем коде при помощи консоли разработчика?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Используя метод console.error() для вывода сообщений об ошибках в консоль разработчика.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Используя метод console.log() для вывода сообщений об ошибках в консоль разработчика.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Используя метод console.debug() для вывода сообщений об ошибках в консоль разработчика.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Используя метод console.info() для вывода сообщений об ошибках в консоль разработчика.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "text": "Какие существуют способы установки breakpoints в коде для отладки?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Способы установки breakpoints включают в себя использование ключевого слова debugger в коде и клик по номеру строки кода в консоли разработчика.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Способы установки breakpoints включают в себя использование метода console.debug() и добавление специальных меток в коде.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Способы установки breakpoints включают в себя использование метода console.error() и добавление специальных меток в коде.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Способы установки breakpoints включают в себя использование ключевого слова break и клик по номеру строки кода в консоли разработчика.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "text": "Что такое ООП (Объектно-Ориентированное Программирование) в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "ООП в JavaScript - это методология программирования, основанная на использовании объектов и классов для организации кода и данных.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "ООП в JavaScript - это подход к программированию, основанный на использовании только функций для организации кода и данных.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "ООП в JavaScript - это способность языка автоматически определять типы данных в коде.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "ООП в JavaScript - это методика отладки кода с помощью консоли разработчика.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "text": "Что такое прототипно-ориентированное наследование в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Прототипно-ориентированное наследование в JavaScript - это механизм наследования, при котором объекты могут наследовать свойства и методы других объектов через свои прототипы.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Прототипно-ориентированное наследование в JavaScript - это способ передачи данных между функциями через их прототипы.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Прототипно-ориентированное наследование в JavaScript - это способ организации кода с использованием прототипов и классов.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Прототипно-ориентированное наследование в JavaScript - это способ передачи данных между объектами через ссылки.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "text": "Что такое передача по ссылке или по значению в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "В JavaScript передача по ссылке означает, что копируется ссылка на объект, а передача по значению означает, что копируется само значение объекта.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "В JavaScript передача по ссылке означает, что копируется само значение объекта, а передача по значению означает, что копируется ссылка на объект.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "В JavaScript передача по ссылке означает, что изменения в копии объекта не затрагивают оригинал, а передача по значению означает, что изменения в копии объекта отражаются на оригинале.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "В JavaScript передача по ссылке и по значению происходит одинаково для всех типов данных.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "text": "Что такое spread оператор (ES6-ES9) в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Spread оператор в JavaScript - это синтаксис, который позволяет развернуть (spread) элементы массива или объекта для использования в другом месте кода.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Spread оператор в JavaScript - это оператор, который используется для объединения элементов массива в строку.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Spread оператор в JavaScript - это оператор, который используется для удаления элементов из массива по определенному критерию.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Spread оператор в JavaScript - это оператор, который используется для конкатенации строк.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "text": "Что такое массивы и псевдомассивы в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Массивы в JavaScript - это упорядоченные списки элементов, а псевдомассивы - это объекты, похожие на массивы, но не имеющие методов массива.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Массивы в JavaScript - это объекты, содержащие элементы, а псевдомассивы - это специальные объекты, используемые для хранения числовых значений.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Массивы в JavaScript - это объекты, имеющие только числовые ключи, а псевдомассивы - это объекты, имеющие только строковые ключи.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Массивы в JavaScript - это специальные объекты, содержащие только строковые значения, а псевдомассивы - это объекты, содержащие только числовые значения.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "text": "Что такое динамическая типизация в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Динамическая типизация в JavaScript - это возможность языка определять типы данных во время выполнения программы, а не во время компиляции.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Динамическая типизация в JavaScript - это возможность языка определять типы данных во время компиляции, а не во время выполнения программы.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Динамическая типизация в JavaScript - это возможность языка изменять типы данных переменных в зависимости от контекста их использования.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Динамическая типизация в JavaScript - это возможность языка преобразовывать типы данных автоматически при выполнении операций.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "text": "Что такое замыкание и лексическое окружение в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Замыкание в JavaScript - это способность функции сохранять доступ к переменным из внешней области видимости, даже после завершения выполнения этой функции.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Замыкание в JavaScript - это способность функции автоматически преобразовывать свои аргументы в нужный тип данных.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Лексическое окружение в JavaScript - это способность языка автоматически определять типы данных в коде.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Лексическое окружение в JavaScript - это способность функции сохранять состояние внешней области видимости на момент своего создания.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "text": "Как получить элементы со страницы в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "С помощью метода document.getElementById() для получения элемента по его идентификатору.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "С помощью метода document.getElementByClass() для получения элемента по его классу.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "С помощью метода document.querySelector() для получения элемента по CSS-селектору.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "С помощью метода document.getElementByName() для получения элемента по его имени.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "text": "Какие действия с элементами страницы можно выполнить с помощью JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Изменять содержимое элементов, добавлять или удалять их, изменять их стили и атрибуты, обрабатывать события.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Только изменять содержимое элементов и их стили, но не добавлять или удалять их.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Только добавлять или удалять элементы со страницы, но не изменять их содержимое или стили.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Только изменять стили элементов, но не их содержимое или атрибуты.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "text": "Что такое события и их обработчики в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "События в JavaScript - это действия, которые происходят на странице (например, клик мыши, нажатие клавиши), а обработчики - это функции, которые вызываются при возникновении событий.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "События в JavaScript - это функции, которые вызываются при возникновении определенных действий на странице, а обработчики - это специальные методы для работы с этими функциями.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "События в JavaScript - это объекты, которые представляют определенные действия на странице, а обработчики - это методы для работы с этими объектами.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "События в JavaScript - это методы, которые вызываются при загрузке страницы, а обработчики - это функции, которые вызываются при завершении работы скрипта.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "text": "Как можно осуществить навигацию по элементам DOM в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "С помощью методов getElementById(), getElementsByClassName(), querySelector(), querySelectorAll() и других.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Только с помощью метода getElementById() для получения элемента по его идентификатору.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Только с помощью метода getElementsByClassName() для получения элементов по их классу.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Только с помощью метода querySelectorAll() для получения элементов по CSS-селектору.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "text": "Что такое data-атрибуты в HTML и как их использовать в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Data-атрибуты - это HTML-атрибуты, начинающиеся с префикса 'data-', которые позволяют хранить дополнительную информацию о элементе. Их можно использовать в JavaScript с помощью свойства dataset объекта элемента.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Data-атрибуты - это атрибуты, начинающиеся с префикса 'data-', которые позволяют определять тип данных элемента. Их использование в JavaScript не предусмотрено.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Data-атрибуты - это специальные атрибуты для работы с данными, которые используются только в CSS для определения стилей элементов.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Data-атрибуты - это атрибуты, которые автоматически добавляются браузером к элементам при загрузке страницы. Их использование в JavaScript не требуется.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "text": "В чем преимущество использования цикла for/of в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Цикл for/of в JavaScript обеспечивает более удобный способ перебора элементов массива или псевдомассива, так как автоматически проходит по всем его элементам.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Цикл for/of в JavaScript позволяет использовать метки для управления выполнением цикла.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Цикл for/of в JavaScript позволяет изменять элементы массива или псевдомассива на лету, что увеличивает производительность кода.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Цикл for/of в JavaScript обеспечивает возможность использования асинхронных функций внутри цикла.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "text": "Что такое рекурсия в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Рекурсия в JavaScript - это техника, при которой функция вызывает саму себя в своем теле.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Рекурсия в JavaScript - это методика работы с циклами, при которой используется метка для управления итерациями.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Рекурсия в JavaScript - это возможность создания анонимных функций внутри других функций.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Рекурсия в JavaScript - это способ передачи аргументов функции по ссылке, а не по значению.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "text": "Какие особенности связаны с использованием ключевых слов async и defer в теге <script> в HTML?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Ключевое слово async позволяет загружать и исполнять скрипты асинхронно, не блокируя загрузку страницы, а defer - откладывает исполнение скриптов до завершения парсинга HTML-документа.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Ключевое слово async откладывает исполнение скриптов до завершения парсинга HTML-документа, а defer позволяет загружать и исполнять скрипты асинхронно, не блокируя загрузку страницы.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Ключевые слова async и defer выполняют одну и ту же функцию и могут использоваться в любом порядке в теге <script>.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Ключевые слова async и defer позволяют загружать и исполнять скрипты асинхронно, не блокируя загрузку страницы, и их использование в теге <script> обязательно для всех скриптов на странице.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "text": "Что такое динамические скрипты в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Динамические скрипты в JavaScript - это скрипты, которые создаются и добавляются на страницу динамически, например, с помощью JavaScript-кода.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Динамические скрипты в JavaScript - это скрипты, которые загружаются с сервера динамически во время выполнения страницы.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Динамические скрипты в JavaScript - это скрипты, которые автоматически изменяют свое содержимое в зависимости от действий пользователя.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Динамические скрипты в JavaScript - это скрипты, которые работают с динамически создаваемыми элементами DOM на странице.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "text": "Какие методы используются для навигации по DOM-элементам в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Методы getElementById() и getElementsByClassName()",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Методы querySelector() и querySelectorAll()",
+          "isCorrect": true
+        },
+        { "id": 3, "text": "Методы find() и findAll()", "isCorrect": false },
+        {
+          "id": 4,
+          "text": "Методы navigateTo() и navigateAll()",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "text": "Что представляют собой data-атрибуты в HTML и как их можно использовать в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Data-атрибуты - это атрибуты, определяющие формат данных, которые могут быть использованы в JavaScript для определения типа переменной.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Data-атрибуты - это специальные атрибуты HTML, начинающиеся с 'data-', которые могут содержать дополнительную информацию о элементе. Их можно использовать в JavaScript через свойство dataset объекта элемента.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Data-атрибуты - это атрибуты, используемые для передачи данных между разными элементами в HTML. Они доступны в JavaScript через методы getAttribute() и setAttribute().",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Data-атрибуты - это атрибуты, которые используются для определения идентификаторов элементов в HTML. Они доступны в JavaScript через методы getElementData() и setElementData().",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "text": "В чем состоит преимущество использования цикла for/of в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Цикл for/of в JavaScript позволяет перебирать только ключи объекта, что делает его более эффективным для работы с массивами.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Цикл for/of в JavaScript автоматически перебирает все элементы массива или итерируемого объекта, что делает код более компактным и понятным.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Цикл for/of в JavaScript позволяет создавать бесконечные циклы, что полезно для выполнения длительных задач.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Цикл for/of в JavaScript обеспечивает возможность использования асинхронных функций внутри цикла без блокировки потока выполнения.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "text": "Что такое рекурсия в контексте JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Рекурсия в JavaScript - это возможность использовать функцию внутри себя без вызова стандартного стека вызовов.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Рекурсия в JavaScript - это способность функции автоматически вызывать себя при возникновении ошибки.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Рекурсия в JavaScript - это методика работы с циклами, при которой используется вложенный цикл внутри основного.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Рекурсия в JavaScript - это способ передачи данных между функциями при помощи объектов.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "text": "Какие особенности связаны с использованием ключевых слов async и defer в теге <script> в HTML?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Async позволяет загружать и исполнять скрипты асинхронно, не блокируя загрузку страницы, а defer - откладывает исполнение скриптов до завершения парсинга HTML-документа.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Async откладывает исполнение скриптов до завершения парсинга HTML-документа, а defer позволяет загружать и исполнять скрипты асинхронно, не блокируя загрузку страницы.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Async и defer выполняют одну и ту же функцию и могут использоваться в любом порядке в теге <script>.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Async и defer позволяют загружать и исполнять скрипты асинхронно, не блокируя загрузку страницы, и их использование в теге <script> обязательно для всех скриптов на странице.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "text": "Что представляет собой оператор нулевого слияния (Nullish, ??) в ECMAScript 11 (ES11)?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Оператор нулевого слияния (Nullish, ??) в ES11 используется для объединения значений, игнорируя null и undefined.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Оператор нулевого слияния (Nullish, ??) в ES11 используется для проверки наличия null или undefined в значении переменной.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Оператор нулевого слияния (Nullish, ??) в ES11 используется для выполнения арифметических операций с нулевыми значениями.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Оператор нулевого слияния (Nullish, ??) в ES11 используется для проверки наличия значений в массивах и объектах и их объединения.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "text": "Что представляет собой оператор опциональной цепочки (?.) в ECMAScript 11 (ES11)?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Оператор опциональной цепочки (?.) в ES11 используется для создания цепочек методов и свойств, которые автоматически проверяются на наличие null или undefined и возвращают undefined, если одно из значений отсутствует.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Оператор опциональной цепочки (?.) в ES11 используется для проверки наличия свойств в объекте и их обработки в случае отсутствия.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Оператор опциональной цепочки (?.) в ES11 используется для проверки наличия значений в массивах и объектах и их объединения.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Оператор опциональной цепочки (?.) в ES11 используется для выполнения арифметических операций с нулевыми значениями.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "text": "Что представляют собой живые коллекции в JavaScript и какие полезные методы для работы с ними вы знаете?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Живые коллекции в JavaScript - это коллекции элементов DOM, которые автоматически обновляются при изменении структуры страницы. К ним относятся HTMLCollection и NodeList. Полезные методы для работы с ними: item(), forEach(), итераторы.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Живые коллекции в JavaScript - это коллекции данных, которые автоматически обновляются при изменении базы данных. Полезные методы для работы с ними: push(), pop(), splice().",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Живые коллекции в JavaScript - это коллекции, которые могут быть изменены только во время выполнения кода. Полезные методы для работы с ними: map(), filter(), reduce().",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Живые коллекции в JavaScript - это коллекции, которые автоматически обновляются при изменении CSS-свойств страницы. Полезные методы для работы с ними: getComputedStyle(), setStyle().",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "text": "Какие методы matches и closest используются для взаимодействия с DOM-элементами в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Метод matches() используется для проверки, соответствует ли элемент указанному селектору, а метод closest() - для поиска ближайшего родительского элемента, соответствующего указанному селектору.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Метод matches() используется для проверки, содержит ли элемент указанный класс, а метод closest() - для поиска ближайшего родительского элемента, содержащего указанный класс.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Метод matches() используется для проверки, содержит ли элемент указанный атрибут, а метод closest() - для поиска ближайшего дочернего элемента, содержащего указанный атрибут.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Метод matches() используется для проверки, является ли элемент указанным тегом, а метод closest() - для поиска ближайшего родительского элемента, являющегося указанным тегом.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "text": "Что такое тип данных Symbol в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Тип данных Symbol в JavaScript представляет уникальные и неизменяемые значения, которые могут быть использованы в качестве ключей для свойств объекта.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Тип данных Symbol в JavaScript представляет собой числовые значения, которые используются для выполнения математических операций с большой точностью.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Тип данных Symbol в JavaScript используется для создания массивов с большим количеством элементов, превышающих ограничения стандартных массивов.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Тип данных Symbol в JavaScript представляет собой строковые значения, используемые для идентификации уникальных свойств объекта.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "text": "Что такое дескрипторы свойств объектов в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Дескрипторы свойств объектов в JavaScript - это специальные методы, которые используются для получения информации о свойствах объекта.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Дескрипторы свойств объектов в JavaScript - это объекты, которые содержат информацию о свойствах объекта, такую как доступность для записи, перечислимость и конфигурируемость.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Дескрипторы свойств объектов в JavaScript - это специальные значения, которые определяют тип данных свойств объекта.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Дескрипторы свойств объектов в JavaScript - это методы, которые используются для добавления новых свойств к объекту.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "text": "Какие полезные методы объектов в JavaScript вы знаете?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Методы Object.keys(), Object.values() и Object.entries() используются для работы с перечислимыми свойствами объекта.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Методы Object.get() и Object.set() используются для получения и установки значений свойств объекта.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Методы Object.create() и Object.assign() используются для создания новых объектов и копирования свойств между объектами.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Методы Object.freeze() и Object.seal() используются для замораживания и запечатывания объектов, чтобы предотвратить изменение их свойств.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "text": "Что представляют собой итерируемые конструкции в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Итерируемые конструкции в JavaScript - это специальные объекты, которые могут быть перебраны с помощью циклов или методов перебора, таких как for...of и метод forEach().",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Итерируемые конструкции в JavaScript - это специальные функции, которые используются для итерации по элементам массива и выполнения определенных операций над ними.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Итерируемые конструкции в JavaScript - это специальные свойства, которые используются для управления циклами и обеспечения итерации по элементам объекта.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Итерируемые конструкции в JavaScript - это специальные методы, которые используются для создания итераторов для объектов и массивов.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "text": "Что представляет собой структура Map в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Структура Map в JavaScript - это коллекция, которая хранит элементы в формате ключ-значение, где каждый ключ может быть любым типом данных.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Структура Map в JavaScript - это метод, который используется для преобразования значений массива в формат ключ-значение для удобного доступа к данным.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Структура Map в JavaScript - это функция, которая используется для выполнения математических операций с элементами массива и получения их суммарного значения.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Структура Map в JavaScript - это специальный тип данных, который используется для создания ассоциативных массивов с динамическими ключами.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "text": "Что представляет собой структура Set в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Структура Set в JavaScript - это коллекция, которая хранит уникальные значения любого типа, исключая повторяющиеся элементы.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Структура Set в JavaScript - это функция, которая используется для сортировки элементов массива в упорядоченном виде.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Структура Set в JavaScript - это метод, который используется для удаления дубликатов из массива и возврата уникальных значений.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Структура Set в JavaScript - это объект, который используется для хранения значений в формате ключ-значение.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "text": "Что представляет собой тип данных BigInt в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Тип данных BigInt в JavaScript представляет целые числа произвольной длины, которые могут быть использованы для выполнения математических операций с высокой точностью.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Тип данных BigInt в JavaScript представляет собой числа с плавающей запятой большой точности, которые используются для вычислений в научных и финансовых приложениях.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Тип данных BigInt в JavaScript представляет числа с большим количеством знаков после запятой, которые используются для точного представления дробных значений.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Тип данных BigInt в JavaScript представляет числа, которые могут быть преобразованы в строковый формат и обратно без потери точности.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "text": "Что представляет собой объект ClassList в JavaScript и как он используется?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Объект ClassList в JavaScript - это специальный тип объекта, который хранит список классов элемента DOM и предоставляет методы для их добавления, удаления и проверки наличия.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Объект ClassList в JavaScript - это объект, который хранит список всех классов в приложении и предоставляет методы для управления ими.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Объект ClassList в JavaScript - это объект, который используется для создания новых классов в приложении и установки их свойств.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Объект ClassList в JavaScript - это объект, который предоставляет методы для работы с CSS-стилями элемента DOM.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "text": "Что такое делегирование событий в JavaScript и как оно используется?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Делегирование событий в JavaScript - это способ обработки событий, при котором один обработчик событий устанавливается на общего родителя для всех целевых элементов, вместо установки обработчика на каждый отдельный элемент.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Делегирование событий в JavaScript - это способ передачи обработки событий от дочерних элементов к родительским элементам в DOM.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Делегирование событий в JavaScript - это метод, который используется для генерации искусственных событий в DOM.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Делегирование событий в JavaScript - это способ добавления новых событий к элементам DOM после их создания.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "text": "Какие методы JavaScript используются для управления временем выполнения скриптов?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "setTimeout() и setInterval() используются для установки таймеров, которые выполняют определенный код через определенный интервал времени.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "sleep() и wait() используются для приостановки выполнения скрипта на определенный период времени.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "executeAfter() и runEvery() используются для выполнения функций после завершения основного кода.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "runDelayed() и runRepeatedly() используются для выполнения задач после загрузки страницы.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "text": "Что такое сборщик мусора в JavaScript и как он работает?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Сборщик мусора в JavaScript - это процесс автоматического освобождения памяти, занятой объектами, которые больше не используются в программе.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Сборщик мусора в JavaScript - это метод, который используется для очистки массивов и объектов от неиспользуемых элементов.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Сборщик мусора в JavaScript - это функция, которая используется для удаления временных файлов и папок из системы.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Сборщик мусора в JavaScript - это процесс, который уменьшает объем занятой памяти, путем сжатия данных в массивах и объектах.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "text": "Что такое WeakMap и WeakSet в JavaScript и для чего они используются?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "WeakMap и WeakSet в JavaScript - это специальные структуры данных, которые используются для хранения ссылок на объекты с возможностью автоматического удаления объектов из памяти, когда на них больше нет ссылок.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "WeakMap и WeakSet в JavaScript - это методы, которые используются для создания слабых ссылок на элементы DOM.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "WeakMap и WeakSet в JavaScript - это объекты, которые используются для хранения слабых ссылок на функции и методы.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "WeakMap и WeakSet в JavaScript - это специальные методы, которые используются для манипулирования слабыми ссылками на объекты в приложении.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "text": "Что такое MutationObserver в JavaScript и как он используется?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "MutationObserver в JavaScript - это объект, который используется для наблюдения за изменениями в дереве DOM и вызова определенных функций в ответ на эти изменения.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "MutationObserver в JavaScript - это метод, который используется для изменения стилей элементов DOM в ответ на события.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "MutationObserver в JavaScript - это объект, который используется для регистрации событий мутации на элементах DOM.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "MutationObserver в JavaScript - это метод, который используется для изменения структуры документа в ответ на действия пользователя.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "text": "Что представляет собой ResizeObserver в JavaScript и как он используется?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "ResizeObserver в JavaScript - это объект, который используется для отслеживания изменений размера элементов DOM и вызова определенных функций в ответ на эти изменения.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "ResizeObserver в JavaScript - это метод, который используется для изменения размера элементов DOM в ответ на изменение размера окна браузера.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "ResizeObserver в JavaScript - это объект, который используется для изменения размера окна браузера в ответ на действия пользователя.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "ResizeObserver в JavaScript - это метод, который используется для изменения структуры документа в ответ на изменение размера элементов DOM.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "text": "Что такое contenteditable в JavaScript и как оно используется?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "contenteditable в JavaScript - это атрибут элемента DOM, который позволяет пользователю редактировать содержимое элемента прямо на странице.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "contenteditable в JavaScript - это метод, который используется для управления содержимым документа в режиме редактирования.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "contenteditable в JavaScript - это свойство объекта Window, которое определяет, может ли пользователь редактировать содержимое страницы.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "contenteditable в JavaScript - это метод, который используется для вставки содержимого в элементы DOM.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "text": "Что такое функции-конструкторы в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Функции-конструкторы в JavaScript - это специальные функции, которые используются для создания новых объектов определенного типа с помощью ключевого слова 'new'.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Функции-конструкторы в JavaScript - это методы, которые используются для создания новых функций на основе существующих.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Функции-конструкторы в JavaScript - это функции, которые используются для преобразования объектов в строки JSON.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Функции-конструкторы в JavaScript - это специальные функции, которые используются для создания обещаний (Promise) в асинхронном коде.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "text": "Что такое контекст вызова (this) в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Контекст вызова (this) в JavaScript - это ссылка на текущий объект, в контексте которого вызывается метод или функция.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Контекст вызова (this) в JavaScript - это ссылка на предыдущий объект, в контексте которого вызывается метод или функция.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Контекст вызова (this) в JavaScript - это специальное ключевое слово, которое используется для создания объектов в коде.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Контекст вызова (this) в JavaScript - это ссылка на глобальный объект Window.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "text": "Что представляют собой классы в JavaScript (ES6)?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Классы в JavaScript (ES6) - это специальные конструкции, которые используются для создания объектов с определенным набором свойств и методов.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Классы в JavaScript (ES6) - это объекты, которые используются для хранения информации о свойствах и методах других объектов.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Классы в JavaScript (ES6) - это методы, которые используются для работы с массивами и их элементами.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Классы в JavaScript (ES6) - это специальные функции, которые используются для создания асинхронных операций в коде.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "text": "Что такое rest оператор и для чего он используется в JavaScript (ES6)?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Rest оператор в JavaScript (ES6) - это специальный синтаксис, который позволяет собирать оставшиеся аргументы функции в массив.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Rest оператор в JavaScript (ES6) - это метод, который используется для получения остатка от деления двух чисел.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Rest оператор в JavaScript (ES6) - это метод, который используется для остановки выполнения функции в определенном месте.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Rest оператор в JavaScript (ES6) - это специальный оператор, который используется для создания циклов в коде.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "text": "Что такое параметры по умолчанию (default parameters) в JavaScript (ES6)?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Параметры по умолчанию (default parameters) в JavaScript (ES6) - это значения, которые устанавливаются для аргументов функции, если они не были переданы при вызове функции.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Параметры по умолчанию (default parameters) в JavaScript (ES6) - это методы, которые вызываются автоматически при создании объекта.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Параметры по умолчанию (default parameters) в JavaScript (ES6) - это специальные свойства объектов, которые используются по умолчанию в методах.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Параметры по умолчанию (default parameters) в JavaScript (ES6) - это значения, которые устанавливаются по умолчанию для свойств объекта, если они не были определены.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "text": "Что такое JSON формат передачи данных и как он используется в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "JSON (JavaScript Object Notation) - это формат передачи данных, основанный на синтаксисе JavaScript, который используется для обмена данными между клиентом и сервером.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "JSON (JavaScript Object Notation) - это метод, который используется для создания объектов в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "JSON (JavaScript Object Notation) - это специальный оператор, который используется для работы с массивами и их элементами.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "JSON (JavaScript Object Notation) - это метод, который используется для конвертации объектов в строки в JavaScript.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "text": "Что представляет собой глубокое клонирование объектов в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Глубокое клонирование объектов в JavaScript - это процесс создания полной копии объекта, включая все вложенные объекты и их свойства.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Глубокое клонирование объектов в JavaScript - это метод, который используется для добавления новых свойств к объекту.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Глубокое клонирование объектов в JavaScript - это метод, который используется для удаления всех свойств из объекта.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Глубокое клонирование объектов в JavaScript - это процесс, который удаляет объект из памяти после его использования.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "text": "Что такое AJAX и как он используется в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "AJAX (Asynchronous JavaScript and XML) - это технология, которая позволяет отправлять и получать данные с сервера без перезагрузки всей страницы.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "AJAX (Asynchronous JavaScript and XML) - это метод, который используется для создания асинхронных функций в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "AJAX (Asynchronous JavaScript and XML) - это формат передачи данных, основанный на синтаксисе JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "AJAX (Asynchronous JavaScript and XML) - это метод, который используется для работы с файлами XML в JavaScript.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "text": "Что представляет собой Fetch API в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Fetch API в JavaScript - это интерфейс, который предоставляет методы для отправки и получения данных с сервера.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Fetch API в JavaScript - это библиотека, которая используется для работы с формами на веб-страницах.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Fetch API в JavaScript - это метод, который используется для получения информации о текущем пользователе.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Fetch API в JavaScript - это специальный оператор, который используется для создания циклов в коде.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "text": "Какие методы перебора массивов существуют в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "map(), filter(), reduce(), forEach()",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "slice(), splice(), sort(), reverse()",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "push(), pop(), shift(), unshift()",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "concat(), includes(), indexOf(), join()",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "text": "Что такое Async/Await (ES8) в JavaScript и для чего они используются?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Async/Await (ES8) в JavaScript - это синтаксический сахар, который упрощает работу с асинхронным кодом и делает его более читаемым.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Async/Await (ES8) в JavaScript - это метод, который используется для создания асинхронных функций в коде.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Async/Await (ES8) в JavaScript - это специальный оператор, который используется для остановки выполнения кода в определенном месте.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Async/Await (ES8) в JavaScript - это метод, который используется для работы с формами на веб-страницах.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "text": "Что такое библиотека Axios и как она используется в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Библиотека Axios - это библиотека, которая предоставляет удобные методы для работы с AJAX запросами в JavaScript.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Библиотека Axios - это библиотека, которая используется для создания асинхронных функций в коде.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Библиотека Axios - это специальный плагин, который используется для работы с файлами на веб-страницах.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Библиотека Axios - это метод, который используется для работы с формами на веб-страницах.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "text": "Что такое регулярные выражения (RegExp) в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Регулярные выражения в JavaScript - это специальные шаблоны символов, которые используются для поиска и сопоставления текста в строке.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Регулярные выражения в JavaScript - это методы, которые используются для работы с массивами.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Регулярные выражения в JavaScript - это тип данных, который представляет собой коллекцию уникальных значений.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Регулярные выражения в JavaScript - это методы, которые используются для работы с объектами.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "text": "Что такое геттеры и сеттеры (getters & setters) в контексте свойств объектов в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Геттеры и сеттеры в JavaScript - это специальные методы, которые позволяют получать и устанавливать значения свойств объекта с помощью синтаксиса доступа к свойствам.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Геттеры и сеттеры в JavaScript - это специальные типы данных, которые используются для создания объектов.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Геттеры и сеттеры в JavaScript - это методы, которые используются для работы с массивами.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Геттеры и сеттеры в JavaScript - это методы, которые используются для работы с регулярными выражениями.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "text": "Что представляет собой инкапсуляция в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Инкапсуляция в JavaScript - это механизм, который позволяет скрывать реализацию деталей объекта и предоставлять только интерфейс для взаимодействия с ним.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Инкапсуляция в JavaScript - это специальный тип данных, который представляет собой коллекцию уникальных значений.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Инкапсуляция в JavaScript - это методы, которые используются для работы с массивами.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Инкапсуляция в JavaScript - это методы, которые используются для работы с регулярными выражениями.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "text": "Что такое прием модуль и для чего его используют в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Прием модуль в JavaScript - это шаблон проектирования, который используется для организации кода в модули для лучшей структуризации и управления.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Прием модуль в JavaScript - это специальный тип данных, который представляет собой коллекцию уникальных значений.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Прием модуль в JavaScript - это методы, которые используются для работы с массивами.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Прием модуль в JavaScript - это методы, которые используются для работы с регулярными выражениями.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "text": "Что такое ES6 Modules в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "ES6 Modules - это стандартный формат организации и структурирования кода в JavaScript, который позволяет импортировать и экспортировать функции, переменные и объекты между различными файлами.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "ES6 Modules - это специальные методы, которые используются для работы с массивами в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "ES6 Modules - это тип данных, который представляет собой коллекцию уникальных значений в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "ES6 Modules - это методы, которые используются для работы с регулярными выражениями в JavaScript.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "text": "Как работает конструкция Try/Catch в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Конструкция Try/Catch в JavaScript используется для обработки исключений в коде. Она позволяет отслеживать ошибки в блоке Try и выполнять соответствующие действия в блоке Catch.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Конструкция Try/Catch в JavaScript используется для создания циклов и повторяющихся операций.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Конструкция Try/Catch в JavaScript используется для работы с массивами.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Конструкция Try/Catch в JavaScript используется для работы с регулярными выражениями.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "text": "Как можно создать собственные ошибки в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Собственные ошибки в JavaScript можно создать, используя конструктор Error и передавая ему пользовательское сообщение.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Собственные ошибки в JavaScript можно создать, используя методы объектов.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Собственные ошибки в JavaScript можно создать, используя методы работы с массивами.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Собственные ошибки в JavaScript можно создать, используя методы работы с регулярными выражениями.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "text": "Как можно превратить код ES6+ в старый формат ES5 в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Код ES6+ в JavaScript можно превратить в старый формат ES5, используя инструменты транспиляции, такие как Babel.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Код ES6+ в JavaScript можно превратить в старый формат ES5, используя методы работы с массивами.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Код ES6+ в JavaScript можно превратить в старый формат ES5, используя методы работы с регулярными выражениями.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Код ES6+ в JavaScript можно превратить в старый формат ES5, используя методы работы с объектами.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "text": "Что такое функции-генераторы в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Функции-генераторы - это специальный тип функций в JavaScript, который позволяет создавать итераторы с использованием ключевого слова 'yield'. Они позволяют приостанавливать и возобновлять выполнение функции.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Функции-генераторы - это методы, которые используются для работы с массивами в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Функции-генераторы - это тип данных, который представляет собой коллекцию уникальных значений в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Функции-генераторы - это способы работы с регулярными выражениями в JavaScript.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "text": "Что представляет собой Web Animations API в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Web Animations API - это набор инструментов в JavaScript, который позволяет создавать и управлять анимациями на веб-странице с использованием программного кода.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Web Animations API - это методы, используемые для работы с DOM-элементами в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Web Animations API - это тип данных, который представляет собой коллекцию уникальных значений в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Web Animations API - это способы работы с регулярными выражениями в JavaScript.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "text": "Что такое Event loop в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Event loop - это механизм в JavaScript, который позволяет организовать асинхронное выполнение операций и обеспечивает непрерывную обработку событий.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Event loop - это методы, используемые для работы с сетью в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Event loop - это тип данных, который представляет собой коллекцию уникальных значений в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Event loop - это способы работы с регулярными выражениями в JavaScript.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "text": "Какие основные различия между асинхронными и синхронными операциями в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Основное различие между асинхронными и синхронными операциями в JavaScript заключается в том, что синхронные операции выполняются последовательно и блокируют исполнение других операций, в то время как асинхронные операции выполняются параллельно и не блокируют исполнение других операций.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Основное различие между асинхронными и синхронными операциями в JavaScript заключается в типе данных, который они возвращают.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Основное различие между асинхронными и синхронными операциями в JavaScript заключается в способе их вызова.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Основное различие между асинхронными и синхронными операциями в JavaScript заключается в их времени выполнения.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "text": "Что такое макро и микрозадачи в контексте JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Макро и микрозадачи - это специальные типы задач в JavaScript, которые используются для организации выполнения асинхронного кода и обеспечивают последовательность исполнения.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Макро и микрозадачи - это методы, используемые для работы с DOM-элементами в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Макро и микрозадачи - это типы данных, которые представляют собой коллекции уникальных значений в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Макро и микрозадачи - это методы, используемые для работы с регулярными выражениями в JavaScript.",
+          "isCorrect": false
+        }
       ]
     }
   ],
@@ -472,6 +4266,318 @@
           "isCorrect": false
         },
         { "id": 4, "text": "Мемоизации функций", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Что такое функции-генераторы в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Функции-генераторы - это специальный тип функций в JavaScript, который позволяет создавать итераторы с использованием ключевого слова 'yield'. Они позволяют приостанавливать и возобновлять выполнение функции.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Функции-генераторы - это методы, которые используются для работы с массивами в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Функции-генераторы - это тип данных, который представляет собой коллекцию уникальных значений в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Функции-генераторы - это способы работы с регулярными выражениями в JavaScript.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Что представляет собой Web Animations API в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Web Animations API - это набор инструментов в JavaScript, который позволяет создавать и управлять анимациями на веб-странице с использованием программного кода.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Web Animations API - это методы, используемые для работы с DOM-элементами в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Web Animations API - это тип данных, который представляет собой коллекцию уникальных значений в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Web Animations API - это способы работы с регулярными выражениями в JavaScript.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Что такое Event loop в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Event loop - это механизм в JavaScript, который позволяет организовать асинхронное выполнение операций и обеспечивает непрерывную обработку событий.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Event loop - это методы, используемые для работы с сетью в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Event loop - это тип данных, который представляет собой коллекцию уникальных значений в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Event loop - это способы работы с регулярными выражениями в JavaScript.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Какие основные различия между асинхронными и синхронными операциями в JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Основное различие между асинхронными и синхронными операциями в JavaScript заключается в том, что синхронные операции выполняются последовательно и блокируют исполнение других операций, в то время как асинхронные операции выполняются параллельно и не блокируют исполнение других операций.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Основное различие между асинхронными и синхронными операциями в JavaScript заключается в типе данных, который они возвращают.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Основное различие между асинхронными и синхронными операциями в JavaScript заключается в способе их вызова.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Основное различие между асинхронными и синхронными операциями в JavaScript заключается в их времени выполнения.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Что такое макро и микрозадачи в контексте JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Макро и микрозадачи - это специальные типы задач в JavaScript, которые используются для организации выполнения асинхронного кода и обеспечивают последовательность исполнения.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Макро и микрозадачи - это методы, используемые для работы с DOM-элементами в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Макро и микрозадачи - это типы данных, которые представляют собой коллекции уникальных значений в JavaScript.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Макро и микрозадачи - это методы, используемые для работы с регулярными выражениями в JavaScript.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Что такое порталы в React?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Это компоненты для управления маршрутизацией в React.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Это специальные элементы для создания сложных анимаций в React.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Порталы - это способ рендерить дочерние элементы в DOM-узел, который находится вне DOM-иерархии родительского компонента.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Порталы - это элементы для вставки веб-компонентов в приложения React.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "Какие основные методы жизненного цикла компонента React?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "render(), componentDidMount(), componentWillUnmount(), componentDidUpdate()",
+          "isCorrect": true
+        },
+        { "id": 2, "text": "load(), execute(), destroy()", "isCorrect": false },
+        { "id": 3, "text": "start(), stop(), restart()", "isCorrect": false },
+        { "id": 4, "text": "create(), update(), delete()", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 16,
+      "text": "Что такое контекст (context) в React?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Контекст в React - это синтаксический сахар для передачи пропсов дочерним компонентам.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Контекст в React - это специальный тип хука для работы с состоянием.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Контекст в React - это механизм передачи данных через дерево компонентов без явной передачи пропсов на каждом уровне.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Контекст в React - это специальный объект, который содержит информацию о текущем компоненте.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "text": "Как создать функциональный компонент в React?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "С помощью ключевого слова 'class'.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "С помощью ключевого слова 'function'.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "С помощью ключевого слова 'component'.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "С помощью ключевого слова 'const'.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "text": "Что такое ленивая загрузка (lazy loading) компонентов в React?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Это методика оптимизации производительности приложения с помощью кэширования данных.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Ленивая загрузка - это способ загрузки компонентов в момент их рендеринга на странице.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Ленивая загрузка - это альтернативный способ реализации виртуализации в React.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Ленивая загрузка - это методика сокрытия некоторых компонентов от рендеринга для улучшения производительности.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "text": "Что такое контекстное API (Context API) в React?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Контекстное API - это набор методов для работы с контекстами в функциональных компонентах.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Контекстное API - это набор инструментов для управления глобальным состоянием приложения в React.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Контекстное API - это специальный хук для работы с контекстами в классовых компонентах.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Контекстное API - это механизм для оптимизации производительности приложения с помощью кэширования данных.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "text": "Что такое компоненты высшего порядка (HOC) в React?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "HOC - это методы для работы с жизненным циклом компонентов в React.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "HOC - это компоненты, которые обеспечивают доступ к состоянию и методам жизненного цикла компонента.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "HOC - это функции, которые принимают компонент и возвращают новый компонент с дополнительной функциональностью.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "HOC - это специальные методы для оптимизации производительности компонентов в React.",
+          "isCorrect": false
+        }
       ]
     }
   ]

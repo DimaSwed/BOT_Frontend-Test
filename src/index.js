@@ -3,14 +3,14 @@ import './index.sass';
 import database from '../data/questions.json';
 
 window.addEventListener('DOMContentLoaded', () => {
-  // CLOSE PAGE и SHOW PAGE - функция скрыть / отобразить блок
+  // Функция для скрытия / отображения блока страницы
   function togglePage(pageSelector, show) {
     const page = document.querySelector(pageSelector);
     page.classList.toggle('show', show);
     page.classList.toggle('hide', !show);
   }
 
-  // START QUIZ
+  // Функция для начала викторины
   const startQuizBtn = document.querySelector('.welcome__button');
   const welcomePageSelector = '#display__welcome';
   const topicSelectionPageSelector = '#display__topic';
@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
   }
   startQuiz(startQuizBtn, welcomePageSelector, topicSelectionPageSelector);
 
-  // Добавляем обработчики событий для кнопок тем
+  // Добавление обработчиков событий для кнопок выбора темы
   ['html', 'css', 'javascript', 'react'].forEach(topic => {
     const topicBtn = document.getElementById(topic);
     topicBtn.addEventListener('click', () => handleTopicClick(topic));
@@ -30,48 +30,44 @@ window.addEventListener('DOMContentLoaded', () => {
 
   let currentQuestion = 1;
 
-  // HANDLE TOPIC CLICK - функция выбора темы
-
+  // Функция для обработки выбора темы
   function handleTopicClick(topic) {
     document.getElementById(topic).setAttribute('data-status', 'selected');
 
-    // Получаем список вопросов по выбранной теме
+    // Получение списка вопросов по выбранной теме
     const questions = database[topic];
 
-    // Прячем блок с кнопками выбора темы
-    // Показываем блок с вопросами
+    // Скрытие блока с кнопками выбора темы и отображение блока с вопросами
     togglePage('#display__topic', false);
     togglePage('#display__game', true);
 
     showQuestionAndAssignEventListeners(questions);
 
-    // Обновляем результаты прогресс бара
+    // Обновление состояния прогресс-бара
     updateProgressBar(questions, topic);
   }
 
-  // SHOW QUESTION - функция отображает вопрос
+  // Функция для отображения вопроса
   function showQuestionAndAssignEventListeners(questions) {
-    // Получаем индекс текущего вопроса
     const currentIndex = currentQuestion - 1;
 
-    // Проверяем, есть ли вопрос с таким индексом
+    // Проверка существования вопроса с текущим индексом
     if (currentIndex >= questions.length || currentIndex < 0) {
       console.error('Вопрос с текущим индексом отсутствует.');
       return;
     }
 
-    // Получаем текущий вопрос
     const currentQuestionData = questions[currentIndex];
 
-    // Отображаем текст вопроса
+    // Отображение текста вопроса
     document.querySelector('.quiz__question').textContent =
       currentQuestionData.text;
 
-    // Очищаем блок с вариантами ответов или поле для ввода
+    // Очистка блока с вариантами ответов или поля для ввода
     const quizAnswers = document.querySelector('.quiz__answers');
     quizAnswers.innerHTML = '';
 
-    // Отображаем варианты ответов из базы данных
+    // Отображение вариантов ответов из базы данных
     currentQuestionData.options.forEach((option, index) => {
       const button = document.createElement('button');
       button.classList.add('btn');
@@ -84,8 +80,7 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // UPDATE COUNTER - функция обновления счетчика ответов
-
+  // Функция для обновления счетчика ответов
   function updateCounter(button) {
     const isCorrect = button.getAttribute('data-correct') === '1';
     const trueCounter = document.querySelector('[data-counter="true"]');
@@ -98,9 +93,7 @@ window.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // HANDLE ANSWER CLICK - функция выбора ответа на вопрос
-
-  // Создаем массив для ответов пользователя и правильных ответов
+  // Функция для обработки клика по варианту ответа
   const userAnswers = [];
 
   function handleAnswerClick(button, questions) {
@@ -131,8 +124,7 @@ window.addEventListener('DOMContentLoaded', () => {
     currentQuestion++;
   }
 
-  // UPDATE PROGRESS BAR - функция изменения прогрессбара
-
+  // Функция для обновления прогресс-бара
   function updateProgressBar(questions) {
     const progressBar = document.getElementById('quiz__progress');
     const progressCount = document.querySelector('.quiz__progress-title');
@@ -143,17 +135,13 @@ window.addEventListener('DOMContentLoaded', () => {
     progressBar.style.width = `${percentage}%`;
   }
 
-  // // NEXT QUESTION - Перейти к следующему вопросу по нажатию кнопки "Следующий вопрос"
-
+  // Функция для перехода к следующему вопросу
   const nextQuestionSelectBtn = document.getElementById('next_question-btn');
   function nextQuestion(btn) {
     btn.addEventListener('click', () => {
-      // Прячем блок с правильным ответом
-      // Отображаем блок с кнопками ответов
       togglePage('.quiz__true', false);
       togglePage('#quiz__answers', true);
 
-      // Получаем выбранную тему
       const selectedTopicButton = document.querySelector(
         '[data-status="selected"]',
       );
@@ -162,33 +150,24 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // SHOW REZULTS - функция перехода к результатам
-
+  // Функция для отображения результатов
   function showResults(questions) {
-    // Закрываем блок с вариантами ответов
-    // Отображаем блок с правильным ответом
     togglePage('#quiz__answers', false);
     togglePage('.quiz__true', true);
 
-    // Заменяем текст на кнопке "Следующий вопрос" на "Закончить тестирование"
     const nextQuestionBtn = document.getElementById('next_question-btn');
     const btnSpan = nextQuestionBtn.querySelector('span');
     btnSpan.textContent = 'Закончить тестирование';
 
-    // Обработчик нажатия кнопки "Закончить тестирование"
     nextQuestionBtn.addEventListener('click', () => {
-      // Закрываем блок с вопросами
-      // Отображаем блок с правильным ответом
       togglePage('#display__game', false);
       togglePage('#rezult', true);
 
-      // Генерируем результаты
       generateResults(questions, userAnswers);
     });
   }
 
-  // GENERATE REZULTS - Изменяем содержимое страницы rezults
-
+  // Функция для генерации результатов
   function generateResults(questions, answers) {
     const rezultInnerAnswers = document.querySelector('.rezult__inner-answers');
     rezultInnerAnswers.innerHTML = ''; // Очищаем блок с ответами
@@ -215,7 +194,6 @@ window.addEventListener('DOMContentLoaded', () => {
       rezultInnerAnswers.appendChild(div);
     });
 
-    // Устанавливаем текст с количеством правильных ответов
     const rezultInnerScore = document.querySelector('.rezult__inner-score');
     const counter = document.querySelector('[data-counter="true"]').textContent;
 
