@@ -838,7 +838,7 @@ a {
   border: 1px solid white;
   border-radius: 2em;
   flex: auto;
-  padding: 5%;
+  padding: 3%;
   display: flex;
   flex-direction: column;
 }
@@ -858,10 +858,13 @@ a {
   gap: 30px;
 }
 .quiz__inner .quiz__wrap .quiz__answers .btn {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 600;
   margin: 0 auto;
   text-align: left;
+  height: auto;
+  max-width: 600px;
+  width: 100%;
 }
 .quiz__inner .quiz__true {
   border: 1px solid rgb(228, 159, 31);
@@ -889,7 +892,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: auto;
+  height: 100%;
+  overflow-y: scroll;
 }
 .rezult__inner h2 {
   font-size: 2.5em;
@@ -939,7 +943,7 @@ a {
   text-transform: uppercase;
   -webkit-text-decoration: underline;
   text-decoration: underline;
-}`, "",{"version":3,"sources":["webpack://./src/index.sass","webpack://./src/style/common/_reset.sass","webpack://./src/style/common/_extends.sass","webpack://./src/style/common/_var.sass","webpack://./src/style/common/_buttons.sass","webpack://./src/style/common/_mixins.sass","webpack://./src/style/common/_base.sass","webpack://./src/style/modules/_welcome-page.sass","webpack://./src/style/modules/_topic-selection-page.sass","webpack://./src/style/modules/_quiz-page.sass","webpack://./src/style/modules/_result-page.sass"],"names":[],"mappings":"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","sourcesContent":["// Используйте точку с запятой после каждой декларации\n@import '~normalize.css'\n@import 'style/common/core'\n@import 'style/modules/welcome-page'\n@import 'style/modules/topic-selection-page'\n@import 'style/modules/quiz-page'\n@import 'style/modules/result-page'\n","//-------------------------------------\n//  Reset\n//-------------------------------------\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video\n  margin: 0\n  padding: 0\n  border: 0\n  font-size: 100%\n  vertical-align: baseline\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section\n  display: block\nbody\n  line-height: 1\nol, ul\n  list-style-type: none\nblockquote, q\n  quotes: none\nblockquote:before, blockquote:after,\nq:before, q:after\n  content: ''\n  content: none\ntable\n  border-collapse: collapse\n  border-spacing: 0\nimg\n  display: block\n\nhtml\n  box-sizing: border-box\n\n*,\n*::before,\n*::after\n  box-sizing: inherit\n\na:hover\n  cursor: pointer\n\na,\n:link,\n:visited\n  text-decoration: none\n\nbutton,\nselect\n  cursor: pointer\n  text-transform: none\n","%extend__text\n  color: $text\n  font-size: $text-size\n  font-weight: 400\n  font-family: $font_family__main\n  font-style: normal\n\n%icon\n  display: inline-block\n  width: 2.3em\n  height: 2.3em\n  background-size: contain\n  background-position: center\n  background-repeat: no-repeat\n  position: absolute\n  left: -1.2em\n  top: -0.2em\n  z-index: 1\n","$max_width: 1200px\n$font_family__main: \"Ubuntu\", sans-serif\n$text_size: 16px\n$back: rgb(228,159,31)\n$dark_blue: rgb(21,30,52)\n$text: #fff\n","// Welcome_page button\n.welcome__button\n  @include width_height($width: 300px, $height: 60px)\n  font-size: 1.7em\n  text-transform: uppercase\n  letter-spacing: 1.3px\n  font-weight: 700\n  color: $text\n  background: $back\n  background: linear-gradient(90deg, rgba(228,159,31,1) 0%, #0036e8 100%)\n  border: none\n  border-radius: 1000px\n  box-shadow: 12px 12px 24px rgba(228,159,31,.64)\n  transition: all 0.3s ease-in-out 0s\n  cursor: pointer\n  outline: none\n  position: relative\n  padding: 10px\n\n  &::before\n    content: ''\n    border-radius: 1000px\n    min-width: calc(300px + 12px)\n    min-height: calc(60px + 12px)\n    border: 6px solid $back\n    box-shadow: 0 0 60px rgba(228,159,31,.64)\n    position: absolute\n    top: 50%\n    left: 50%\n    transform: translate(-50%, -50%)\n    opacity: 0\n    transition: all .3s ease-in-out 0s\n\n    &:hover,\n    &:focus\n      color: #313133\n      transform: translateY(-6px)\n\n  &:hover::before,\n  &:focus::before\n    opacity: 1\n\n  &::after\n    content: ''\n    width: 30px\n    height: 30px\n    border-radius: 100%\n    border: 6px solid $back\n    position: absolute\n    z-index: -1\n    top: 50%\n    left: 50%\n    transform: translate(-50%, -50%)\n    animation: ring 1.5s infinite\n\n  &:hover::after,\n  &:focus::after\n    animation: none\n    display: none\n\n  @keyframes ring\n    0%\n      width: 30px\n      height: 30px\n      opacity: 1\n\n    100%\n      width: 300px\n      height: 300px\n      opacity: 0\n\n// Topic-section btns\n.btn\n  @include width_height($width: 300px, $height: 80px)\n  border-radius: 4px\n  background-color: $back\n  border: none\n  color: $dark_blue\n  text-align: center\n  font-size: 2em\n  padding: 16px\n  transition: all 0.5s\n  cursor: pointer\n  margin: 15px\n  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7)\n\n// Next btn\n.btn-next\n  display: inline-block\n  position: relative\n  transition: 0.5s\n  font-weight: 600\n\n.btn-next:after\n  content: '»'\n  position: absolute\n  opacity: 0\n  top: 22px\n  right: 0px\n  transition: 0.5s\n\n.btn-next:hover\n  padding-right: 24px\n  padding-left: 8px\n\n.btn-next:hover:after\n  opacity: 1\n  right: 20px\n\n// Disabled btn\n.btn:disabled\n  cursor: not-allowed\n  background-color: red\n\n// Answer btn\n\n.btn-false\n  background-color: red\n\n// textarea\n\n.textarea\n  @include width_height($width: 600px, $height: 100px)\n  font-size: 1em\n  letter-spacing: 1.3px\n  font-weight: 500\n  color: $dark_blue\n  background: $back\n  border: none\n  padding: 15px\n  position: absolute\n  top: 60%\n  left: 50%\n  transform: translate(-50%, -50%)\n\n.btn-absolute\n  position: absolute\n  top: 80%\n  left: 50%\n  transform: translate(-50%, -50%)\n","// Миксин для задания высоты и ширины\n@mixin width_height($width: 110px, $height: 110px)\n  width: $width\n  height: $height\n\n  // Миксин для создания flex-контейнера\n@mixin flexContainer($direction: row, $justify: flex-start, $align: stretch)\n  display: flex\n  flex-direction: $direction\n  justify-content: $justify\n  align-items: $align\n","body\n  max-width: 1920px\n  background: $back\n  margin: 0 auto\n  font: normal 62.5% $font_family__main\n  font-size: $text-size\n  line-height: normal\n  font-weight: 400\n  font-style: normal\n  color: $text\n  -webkit-appearance: none\n  -webkit-font-smoothing: antialiased\n  -webkit-tap-highlight-color: rgba(0,0,0,0)\n\nbutton,\ninput,\ntextarea\n  -webkit-font-smoothing: antialiased\n\n.container\n  width: 100%\n  max-width: 1200px\n  padding: 0 20px\n  margin: 0 auto\n\n.inner\n  color: $text\n  @include width_height($width: 1200px, $height: 700px)\n  @extend %extend__text\n  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px\n  position: absolute\n  top: 50%\n  left: 50%\n  transform: translate(-50%, -50%)\n\nimg\n  display: block\n\na\n  text-decoration: none\n\n.show\n  display: block\n\n.hide\n  display: none\n",".welcome\n  .welcome__inner\n    background-image: url(../../assets/img/background_img.png)\n    background-size: cover\n    background-position: center\n    background-repeat: no-repeat\n    color: $text\n    text-align: center\n    padding: 5%\n\n    h1\n      font-size: 3.5em\n      font-weight: 900\n      margin-bottom: 30px\n      text-transform: uppercase\n      max-width: 600px\n\n    p\n      font-size: 1.3em\n      margin-bottom: 120px\n      max-width: 600px\n\n    &-wrap\n      display: flex\n      align-items: center\n      justify-content: center\n      max-width: 600px\n",".topic_selection\n  &__inner\n    background-color: $dark_blue\n    padding: 2%\n    text-align: center\n    display: flex\n    flex-direction: column\n    align-items: center\n\n    h2\n      font-size: 2.5em\n      font-weight: 900\n      margin-bottom: 30px\n      text-transform: uppercase\n      max-width: 600px\n\n    p\n      font-size: 1.3em\n      margin-bottom: 100px\n      max-width: 600px\n\n    &-wrap\n\n      display: flex\n      align-items: center\n      justify-content: space-between\n      max-width: 700px\n      width: 100%\n      padding: 15px\n\n      &:last-child\n        justify-content: center\n",".quiz\n  &__inner\n    background-color: $dark_blue\n    padding: 2%\n    text-align: center\n    display: flex\n    flex-direction: column\n    // align-items: center\n\n    .game__panel\n      // border: 1px solid white\n      margin-bottom: 20px\n\n      span[data-counter]\n        display: block\n        width: 100%\n        max-width: 100%\n        padding: 0 0.4em\n        padding-left: 1.5em\n        // min-width: 3em\n\n      &-item\n        display: inline-block\n        background-color: #fcad1ab5\n        font-size: 1.5em\n        min-width: 3em\n        height: 1.8em\n        line-height: 1.8em\n        border-radius: 0.3em\n        position: relative\n\n        text-align: center\n\n      &-true\n        margin-right: 3em\n\n      .icon-true\n        background-image: url(../../assets/icons/correct.png)\n        @extend %icon\n\n      .icon-false\n        background-image: url(../../assets/icons/wrong.png)\n        @extend %icon\n\n      // &-false\n        // margin-right: 0.8rem\n\n    .quiz__panel\n      // border: 1px solid white\n      margin-bottom: 20px\n      display: flex\n      align-items: center\n      justify-content: center\n      position: relative\n\n      .quiz__progress\n        width: 500px\n        height: 30px\n        background-color: rgb(21, 30, 52)\n        border: 1px solid $back\n        border-radius: 15px\n        overflow: hidden\n\n        &-title\n          position: absolute\n          font-size: 1.5em\n          line-height: 1.2em\n          // width: 4em\n          left: calc(50% - 5em)\n\n        &-handler\n          height: 100%\n          width: 0\n          background-color: rgb(228, 159, 31)\n          transition: width 0.5s ease-in-out\n\n    .quiz__wrap\n      border: 1px solid white\n      border-radius: 2em\n      flex: auto\n      padding: 5%\n      display: flex\n      flex-direction: column\n\n      .quiz__question\n        font-size: 1.3em\n        font-weight: 800\n        max-width: 600px\n        margin: 0 auto\n        margin-bottom: 50px\n        text-transform: uppercase\n\n      .quiz__answers\n        display: grid\n        grid-template-columns: repeat(2, 1fr)\n        grid-template-rows: repeat(2, 1fr)\n        gap: 30px\n\n        .btn\n          font-size: 1.2em\n          font-weight: 600\n          margin: 0 auto\n          text-align: left\n\n    .quiz__true\n      border: 1px solid $back\n      background-color: rgb(9, 15, 31)\n\n      .quiz__winner-answer\n        font-size: 1.3em\n        font-weight: 800\n        max-width: 600px\n        margin: 0 auto\n        padding: 2%\n        margin-bottom: 20px\n\n      .btn\n        font-size: 1.3em\n        font-weight: 600\n\n      .btn-next:after\n        top: 28px\n",".rezult\n  &__inner\n    background-color: $dark_blue\n    padding: 3%\n    display: flex\n    flex-direction: column\n    align-items: center\n    height: auto\n\n    h2\n      font-size: 2.5em\n      font-weight: 900\n      margin-bottom: 20px\n      text-transform: uppercase\n      text-decoration: underline\n      max-width: 800px\n\n    p\n      font-size: 1.3em\n      margin-bottom: 20px\n      max-width: 600px\n\n    &-answers\n      display: grid\n      grid-template-columns: repeat(3, 1fr)\n      grid-template-rows: repeat(2, 1fr)\n      gap: 10px\n\n      .rezult__inner-item\n        display: flex\n        flex-direction: column\n        margin-bottom: 5px\n        border: 1px solid $back\n\n        p\n          font-size: 0.9em\n          margin-bottom: 5px\n\n          span\n            text-decoration: underline\n            margin-bottom: 5px\n            font-weight: 800\n            color: $back\n\n    &-score\n      display: flex\n      margin-top: 20px\n\n      p\n        font-size: 1.3em\n        font-weight: 800\n        text-transform: uppercase\n        text-decoration: underline\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/index.sass","webpack://./src/style/common/_reset.sass","webpack://./src/style/common/_extends.sass","webpack://./src/style/common/_var.sass","webpack://./src/style/common/_buttons.sass","webpack://./src/style/common/_mixins.sass","webpack://./src/style/common/_base.sass","webpack://./src/style/modules/_welcome-page.sass","webpack://./src/style/modules/_topic-selection-page.sass","webpack://./src/style/modules/_quiz-page.sass","webpack://./src/style/modules/_result-page.sass"],"names":[],"mappings":"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","sourcesContent":["// Используйте точку с запятой после каждой декларации\n@import '~normalize.css'\n@import 'style/common/core'\n@import 'style/modules/welcome-page'\n@import 'style/modules/topic-selection-page'\n@import 'style/modules/quiz-page'\n@import 'style/modules/result-page'\n","//-------------------------------------\n//  Reset\n//-------------------------------------\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video\n  margin: 0\n  padding: 0\n  border: 0\n  font-size: 100%\n  vertical-align: baseline\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section\n  display: block\nbody\n  line-height: 1\nol, ul\n  list-style-type: none\nblockquote, q\n  quotes: none\nblockquote:before, blockquote:after,\nq:before, q:after\n  content: ''\n  content: none\ntable\n  border-collapse: collapse\n  border-spacing: 0\nimg\n  display: block\n\nhtml\n  box-sizing: border-box\n\n*,\n*::before,\n*::after\n  box-sizing: inherit\n\na:hover\n  cursor: pointer\n\na,\n:link,\n:visited\n  text-decoration: none\n\nbutton,\nselect\n  cursor: pointer\n  text-transform: none\n","%extend__text\n  color: $text\n  font-size: $text-size\n  font-weight: 400\n  font-family: $font_family__main\n  font-style: normal\n\n%icon\n  display: inline-block\n  width: 2.3em\n  height: 2.3em\n  background-size: contain\n  background-position: center\n  background-repeat: no-repeat\n  position: absolute\n  left: -1.2em\n  top: -0.2em\n  z-index: 1\n","$max_width: 1200px\n$font_family__main: \"Ubuntu\", sans-serif\n$text_size: 16px\n$back: rgb(228,159,31)\n$dark_blue: rgb(21,30,52)\n$text: #fff\n","// Welcome_page button\n.welcome__button\n  @include width_height($width: 300px, $height: 60px)\n  font-size: 1.7em\n  text-transform: uppercase\n  letter-spacing: 1.3px\n  font-weight: 700\n  color: $text\n  background: $back\n  background: linear-gradient(90deg, rgba(228,159,31,1) 0%, #0036e8 100%)\n  border: none\n  border-radius: 1000px\n  box-shadow: 12px 12px 24px rgba(228,159,31,.64)\n  transition: all 0.3s ease-in-out 0s\n  cursor: pointer\n  outline: none\n  position: relative\n  padding: 10px\n\n  &::before\n    content: ''\n    border-radius: 1000px\n    min-width: calc(300px + 12px)\n    min-height: calc(60px + 12px)\n    border: 6px solid $back\n    box-shadow: 0 0 60px rgba(228,159,31,.64)\n    position: absolute\n    top: 50%\n    left: 50%\n    transform: translate(-50%, -50%)\n    opacity: 0\n    transition: all .3s ease-in-out 0s\n\n    &:hover,\n    &:focus\n      color: #313133\n      transform: translateY(-6px)\n\n  &:hover::before,\n  &:focus::before\n    opacity: 1\n\n  &::after\n    content: ''\n    width: 30px\n    height: 30px\n    border-radius: 100%\n    border: 6px solid $back\n    position: absolute\n    z-index: -1\n    top: 50%\n    left: 50%\n    transform: translate(-50%, -50%)\n    animation: ring 1.5s infinite\n\n  &:hover::after,\n  &:focus::after\n    animation: none\n    display: none\n\n  @keyframes ring\n    0%\n      width: 30px\n      height: 30px\n      opacity: 1\n\n    100%\n      width: 300px\n      height: 300px\n      opacity: 0\n\n// Topic-section btns\n.btn\n  @include width_height($width: 300px, $height: 80px)\n  border-radius: 4px\n  background-color: $back\n  border: none\n  color: $dark_blue\n  text-align: center\n  font-size: 2em\n  padding: 16px\n  transition: all 0.5s\n  cursor: pointer\n  margin: 15px\n  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7)\n\n// Next btn\n.btn-next\n  display: inline-block\n  position: relative\n  transition: 0.5s\n  font-weight: 600\n\n.btn-next:after\n  content: '»'\n  position: absolute\n  opacity: 0\n  top: 22px\n  right: 0px\n  transition: 0.5s\n\n.btn-next:hover\n  padding-right: 24px\n  padding-left: 8px\n\n.btn-next:hover:after\n  opacity: 1\n  right: 20px\n\n// Disabled btn\n.btn:disabled\n  cursor: not-allowed\n  background-color: red\n\n// Answer btn\n\n.btn-false\n  background-color: red\n\n// textarea\n\n.textarea\n  @include width_height($width: 600px, $height: 100px)\n  font-size: 1em\n  letter-spacing: 1.3px\n  font-weight: 500\n  color: $dark_blue\n  background: $back\n  border: none\n  padding: 15px\n  position: absolute\n  top: 60%\n  left: 50%\n  transform: translate(-50%, -50%)\n\n.btn-absolute\n  position: absolute\n  top: 80%\n  left: 50%\n  transform: translate(-50%, -50%)\n","// Миксин для задания высоты и ширины\n@mixin width_height($width: 110px, $height: 110px)\n  width: $width\n  height: $height\n\n  // Миксин для создания flex-контейнера\n@mixin flexContainer($direction: row, $justify: flex-start, $align: stretch)\n  display: flex\n  flex-direction: $direction\n  justify-content: $justify\n  align-items: $align\n","body\n  max-width: 1920px\n  background: $back\n  margin: 0 auto\n  font: normal 62.5% $font_family__main\n  font-size: $text-size\n  line-height: normal\n  font-weight: 400\n  font-style: normal\n  color: $text\n  -webkit-appearance: none\n  -webkit-font-smoothing: antialiased\n  -webkit-tap-highlight-color: rgba(0,0,0,0)\n\nbutton,\ninput,\ntextarea\n  -webkit-font-smoothing: antialiased\n\n.container\n  width: 100%\n  max-width: 1200px\n  padding: 0 20px\n  margin: 0 auto\n\n.inner\n  color: $text\n  @include width_height($width: 1200px, $height: 700px)\n  @extend %extend__text\n  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px\n  position: absolute\n  top: 50%\n  left: 50%\n  transform: translate(-50%, -50%)\n\nimg\n  display: block\n\na\n  text-decoration: none\n\n.show\n  display: block\n\n.hide\n  display: none\n",".welcome\n  .welcome__inner\n    background-image: url(../../assets/img/background_img.png)\n    background-size: cover\n    background-position: center\n    background-repeat: no-repeat\n    color: $text\n    text-align: center\n    padding: 5%\n\n    h1\n      font-size: 3.5em\n      font-weight: 900\n      margin-bottom: 30px\n      text-transform: uppercase\n      max-width: 600px\n\n    p\n      font-size: 1.3em\n      margin-bottom: 120px\n      max-width: 600px\n\n    &-wrap\n      display: flex\n      align-items: center\n      justify-content: center\n      max-width: 600px\n",".topic_selection\n  &__inner\n    background-color: $dark_blue\n    padding: 2%\n    text-align: center\n    display: flex\n    flex-direction: column\n    align-items: center\n\n    h2\n      font-size: 2.5em\n      font-weight: 900\n      margin-bottom: 30px\n      text-transform: uppercase\n      max-width: 600px\n\n    p\n      font-size: 1.3em\n      margin-bottom: 100px\n      max-width: 600px\n\n    &-wrap\n\n      display: flex\n      align-items: center\n      justify-content: space-between\n      max-width: 700px\n      width: 100%\n      padding: 15px\n\n      &:last-child\n        justify-content: center\n",".quiz\n  &__inner\n    background-color: $dark_blue\n    padding: 2%\n    text-align: center\n    display: flex\n    flex-direction: column\n    // align-items: center\n\n    .game__panel\n      // border: 1px solid white\n      margin-bottom: 20px\n\n      span[data-counter]\n        display: block\n        width: 100%\n        max-width: 100%\n        padding: 0 0.4em\n        padding-left: 1.5em\n        // min-width: 3em\n\n      &-item\n        display: inline-block\n        background-color: #fcad1ab5\n        font-size: 1.5em\n        min-width: 3em\n        height: 1.8em\n        line-height: 1.8em\n        border-radius: 0.3em\n        position: relative\n\n        text-align: center\n\n      &-true\n        margin-right: 3em\n\n      .icon-true\n        background-image: url(../../assets/icons/correct.png)\n        @extend %icon\n\n      .icon-false\n        background-image: url(../../assets/icons/wrong.png)\n        @extend %icon\n\n      // &-false\n        // margin-right: 0.8rem\n\n    .quiz__panel\n      // border: 1px solid white\n      margin-bottom: 20px\n      display: flex\n      align-items: center\n      justify-content: center\n      position: relative\n\n      .quiz__progress\n        width: 500px\n        height: 30px\n        background-color: rgb(21, 30, 52)\n        border: 1px solid $back\n        border-radius: 15px\n        overflow: hidden\n\n        &-title\n          position: absolute\n          font-size: 1.5em\n          line-height: 1.2em\n          // width: 4em\n          left: calc(50% - 5em)\n\n        &-handler\n          height: 100%\n          width: 0\n          background-color: rgb(228, 159, 31)\n          transition: width 0.5s ease-in-out\n\n    .quiz__wrap\n      border: 1px solid white\n      border-radius: 2em\n      flex: auto\n      padding: 3%\n      display: flex\n      flex-direction: column\n\n      .quiz__question\n        font-size: 1.3em\n        font-weight: 800\n        max-width: 600px\n        margin: 0 auto\n        margin-bottom: 50px\n        text-transform: uppercase\n\n      .quiz__answers\n        display: grid\n        grid-template-columns: repeat(2, 1fr)\n        grid-template-rows: repeat(2, 1fr)\n        gap: 30px\n\n        .btn\n          font-size: 1em\n          font-weight: 600\n          margin: 0 auto\n          text-align: left\n          height: auto\n          max-width: 600px\n          width: 100%\n\n    .quiz__true\n      border: 1px solid $back\n      background-color: rgb(9, 15, 31)\n\n      .quiz__winner-answer\n        font-size: 1.3em\n        font-weight: 800\n        max-width: 600px\n        margin: 0 auto\n        padding: 2%\n        margin-bottom: 20px\n\n      .btn\n        font-size: 1.3em\n        font-weight: 600\n\n      .btn-next:after\n        top: 28px\n",".rezult\n  &__inner\n    background-color: $dark_blue\n    padding: 3%\n    display: flex\n    flex-direction: column\n    align-items: center\n    height: 100%\n    overflow-y: scroll\n\n    h2\n      font-size: 2.5em\n      font-weight: 900\n      margin-bottom: 20px\n      text-transform: uppercase\n      text-decoration: underline\n      max-width: 800px\n\n    p\n      font-size: 1.3em\n      margin-bottom: 20px\n      max-width: 600px\n\n    &-answers\n      display: grid\n      grid-template-columns: repeat(3, 1fr)\n      grid-template-rows: repeat(2, 1fr)\n      gap: 10px\n\n      .rezult__inner-item\n        display: flex\n        flex-direction: column\n        margin-bottom: 5px\n        border: 1px solid $back\n\n        p\n          font-size: 0.9em\n          margin-bottom: 5px\n\n          span\n            text-decoration: underline\n            margin-bottom: 5px\n            font-weight: 800\n            color: $back\n\n    &-score\n      display: flex\n      margin-top: 20px\n\n      p\n        font-size: 1.3em\n        font-weight: 800\n        text-transform: uppercase\n        text-decoration: underline\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1529,16 +1533,6 @@ module.exports = __webpack_require__.p + "assets/background_img.png";
 
 module.exports = __webpack_require__.p + "assets/favicon.ico";
 
-/***/ }),
-
-/***/ "./data/questions.json":
-/*!*****************************!*\
-  !*** ./data/questions.json ***!
-  \*****************************/
-/***/ ((module) => {
-
-module.exports = /*#__PURE__*/JSON.parse('{"html":[{"id":1,"text":"Какой тег используется для создания ссылки?","hasOptions":true,"options":[{"id":1,"text":"<link>","isCorrect":false},{"id":2,"text":"<a>","isCorrect":true},{"id":3,"text":"<href>","isCorrect":false},{"id":4,"text":"<anchor>","isCorrect":false}]},{"id":2,"text":"Какой тег используется для вставки изображения?","hasOptions":true,"options":[{"id":1,"text":"<img>","isCorrect":true},{"id":2,"text":"<picture>","isCorrect":false},{"id":3,"text":"<media>","isCorrect":false},{"id":4,"text":"<graphic>","isCorrect":false}]},{"id":3,"text":"Какой тег находится в <html> определяет заголовок документа?","hasOptions":true,"options":[{"id":1,"text":"<head>","isCorrect":true},{"id":2,"text":"<header>","isCorrect":false},{"id":3,"text":"<title>","isCorrect":false},{"id":4,"text":"<meta>","isCorrect":false}]},{"id":4,"text":"Какой атрибут используется для определения альтернативного текста изображения?","hasOptions":true,"options":[{"id":1,"text":"src","isCorrect":false},{"id":2,"text":"alt","isCorrect":true},{"id":3,"text":"title","isCorrect":false},{"id":4,"text":"href","isCorrect":false}]},{"id":5,"text":"Какой атрибут позволяет открыть ссылку в новой вкладке?","hasOptions":true,"options":[{"id":1,"text":"target=_blank","isCorrect":true},{"id":2,"text":"target=blank","isCorrect":false},{"id":3,"text":"target=_self","isCorrect":false},{"id":4,"text":"target=_new","isCorrect":false}]},{"id":6,"text":"Какой тег используется для создания таблицы?","hasOptions":true,"options":[{"id":1,"text":"<table>","isCorrect":true},{"id":2,"text":"<grid>","isCorrect":false},{"id":3,"text":"<row>","isCorrect":false},{"id":4,"text":"<column>","isCorrect":false}]},{"id":7,"text":"Какой тег используется для создания заголовка таблицы?","hasOptions":true,"options":[{"id":1,"text":"<caption>","isCorrect":false},{"id":2,"text":"<th>","isCorrect":false},{"id":3,"text":"<thead>","isCorrect":true},{"id":4,"text":"<title>","isCorrect":false}]},{"id":8,"text":"Какой тег используется для создания строки таблицы?","hasOptions":true,"options":[{"id":1,"text":"<td>","isCorrect":false},{"id":2,"text":"<row>","isCorrect":false},{"id":3,"text":"<line>","isCorrect":false},{"id":4,"text":"<tr>","isCorrect":true}]},{"id":9,"text":"Какой тег используется для создания ячейки таблицы?","hasOptions":true,"options":[{"id":1,"text":"<cell>","isCorrect":false},{"id":2,"text":"<tr>","isCorrect":false},{"id":3,"text":"<th>","isCorrect":false},{"id":4,"text":"<td>","isCorrect":true}]},{"id":10,"text":"Какой атрибут используется для установки фонового изображения?","hasOptions":true,"options":[{"id":1,"text":"background","isCorrect":false},{"id":2,"text":"background-color","isCorrect":false},{"id":3,"text":"bgcolor","isCorrect":false},{"id":4,"text":"background-image","isCorrect":true}]},{"id":11,"text":"Какой тег используется для создания выпадающего списка?","hasOptions":true,"options":[{"id":1,"text":"<dropdown>","isCorrect":false},{"id":2,"text":"<list>","isCorrect":false},{"id":3,"text":"<select>","isCorrect":true},{"id":4,"text":"<option>","isCorrect":false}]},{"id":12,"text":"Какой тег используется для вставки JavaScript кода в HTML документ?","hasOptions":true,"options":[{"id":1,"text":"<javascript>","isCorrect":false},{"id":2,"text":"<script>","isCorrect":true},{"id":3,"text":"<js>","isCorrect":false},{"id":4,"text":"<java>","isCorrect":false}]},{"id":13,"text":"Какой атрибут используется для указания пути к изображению?","hasOptions":true,"options":[{"id":1,"text":"src","isCorrect":true},{"id":2,"text":"href","isCorrect":false},{"id":3,"text":"path","isCorrect":false},{"id":4,"text":"url","isCorrect":false}]},{"id":14,"text":"Какой тег HTML используется для вставки видео?","hasOptions":true,"options":[{"id":1,"text":"<media>","isCorrect":false},{"id":2,"text":"<video>","isCorrect":true},{"id":3,"text":"<movie>","isCorrect":false},{"id":4,"text":"<multimedia>","isCorrect":false}]},{"id":15,"text":"Какой тег используется для создания главного заголовка на веб-странице?","hasOptions":true,"options":[{"id":1,"text":"<h1>","isCorrect":true},{"id":2,"text":"<header>","isCorrect":false},{"id":3,"text":"<title>","isCorrect":false},{"id":4,"text":"<head>","isCorrect":false}]},{"id":16,"text":"Какой тег используется для создания упорядоченного списка?","hasOptions":true,"options":[{"id":1,"text":"<ul>","isCorrect":false},{"id":2,"text":"<ol>","isCorrect":true},{"id":3,"text":"<li>","isCorrect":false},{"id":4,"text":"<list>","isCorrect":false}]},{"id":17,"text":"Какой атрибут используется для определения стилей элемента на странице?","hasOptions":true,"options":[{"id":1,"text":"style","isCorrect":true},{"id":2,"text":"css","isCorrect":false},{"id":3,"text":"styles","isCorrect":false},{"id":4,"text":"stylesheet","isCorrect":false}]}],"css":[{"id":1,"text":"Какое свойство используется для установки цвета фона?","hasOptions":true,"options":[{"id":1,"text":"color","isCorrect":false},{"id":2,"text":"background-color","isCorrect":true},{"id":3,"text":"bgcolor","isCorrect":false},{"id":4,"text":"background","isCorrect":false}]},{"id":2,"text":"Какое свойство позволяет установить внешние отступы элемента?","hasOptions":true,"options":[{"id":1,"text":"padding","isCorrect":false},{"id":2,"text":"border","isCorrect":false},{"id":3,"text":"margin","isCorrect":true},{"id":4,"text":"spacing","isCorrect":false}]},{"id":3,"text":"Какое свойство используется для установки шрифта?","hasOptions":true,"options":[{"id":1,"text":"font-weight","isCorrect":false},{"id":2,"text":"font-style","isCorrect":false},{"id":3,"text":"text-font","isCorrect":false},{"id":4,"text":"font-family","isCorrect":true}]},{"id":4,"text":"Какое свойство CSS позволяет контролировать видимость элемента в DOM, но при этом сохраняет его место?","hasOptions":true,"options":[{"id":1,"text":"display: none","isCorrect":false},{"id":2,"text":"visibility: hidden","isCorrect":true},{"id":3,"text":"is-visible: 0","isCorrect":false},{"id":4,"text":"color: transparent","isCorrect":false}]},{"id":5,"text":"Какое свойство CSS используется для установки теней элементов?","hasOptions":true,"options":[{"id":1,"text":"box-shadow","isCorrect":true},{"id":2,"text":"text-shadow","isCorrect":false},{"id":3,"text":"shadow","isCorrect":false},{"id":4,"text":"border-shadow","isCorrect":false}]},{"id":6,"text":"Какой селектор выбирает все элементы .child, которые являются непосредственными дочерними элементами .parent?","hasOptions":true,"options":[{"id":1,"text":".parent + .child","isCorrect":false},{"id":2,"text":".parent ~ .child","isCorrect":false},{"id":3,"text":".parent > .child","isCorrect":true},{"id":4,"text":".parent .child","isCorrect":false}]},{"id":7,"text":"Какой селектор CSS выбирает все элементы, которые имеют указанный атрибут, начинающийся с определенной строки?","hasOptions":true,"options":[{"id":1,"text":"[attr=value]","isCorrect":false},{"id":2,"text":"[attr~=value]","isCorrect":false},{"id":3,"text":"[attr|=value]","isCorrect":false},{"id":4,"text":"[attr^=value]","isCorrect":true}]},{"id":8,"text":"Какой селектор CSS выбирает все элементы, которые имеют указанный атрибут, заканчивающийся определенной строкой?","hasOptions":true,"options":[{"id":1,"text":"[attr=value]","isCorrect":false},{"id":2,"text":"[attr~=value]","isCorrect":false},{"id":3,"text":"[attr|=value]","isCorrect":false},{"id":4,"text":"[attr$=value]","isCorrect":true}]}],"javascript":[{"id":1,"text":"Какой метод используется для добавления элемента в массив?","hasOptions":true,"options":[{"id":1,"text":"splice()","isCorrect":false},{"id":2,"text":"pop()","isCorrect":false},{"id":3,"text":"shift()","isCorrect":false},{"id":4,"text":"push()","isCorrect":true}]},{"id":2,"text":"Какой объект представляет текущее окно браузера?","hasOptions":true,"options":[{"id":1,"text":"document","isCorrect":false},{"id":2,"text":"screen","isCorrect":false},{"id":3,"text":"window","isCorrect":true},{"id":4,"text":"browser","isCorrect":false}]},{"id":3,"text":"Какой оператор используется для сравнения на строгое равенство?","hasOptions":true,"options":[{"id":1,"text":"==","isCorrect":false},{"id":2,"text":"===","isCorrect":true},{"id":3,"text":"=","isCorrect":false},{"id":4,"text":"!==","isCorrect":false}]},{"id":4,"text":"Какой метод используется для удаления последнего элемента из массива?","hasOptions":true,"options":[{"id":1,"text":"splice()","isCorrect":false},{"id":2,"text":"pop()","isCorrect":true},{"id":3,"text":"shift()","isCorrect":false},{"id":4,"text":"push()","isCorrect":false}]},{"id":5,"text":"Какой метод в JavaScript используется для преобразования объекта в строку JSON?","hasOptions":true,"options":[{"id":1,"text":"JSON.stringify()","isCorrect":true},{"id":2,"text":"JSON.parse()","isCorrect":false},{"id":3,"text":"JSON.toText()","isCorrect":false},{"id":4,"text":"JSON.toString()","isCorrect":false}]},{"id":6,"text":"Какой объект в JavaScript используется для работы с датой и временем?","hasOptions":true,"options":[{"id":1,"text":"Time","isCorrect":false},{"id":2,"text":"Date","isCorrect":true},{"id":3,"text":"Calendar","isCorrect":false},{"id":4,"text":"DateTime","isCorrect":false}]},{"id":7,"text":"Какой метод массива в JavaScript используется для фильтрации элементов по определенному критерию?","hasOptions":true,"options":[{"id":1,"text":"map()","isCorrect":false},{"id":2,"text":"filter()","isCorrect":true},{"id":3,"text":"reduce()","isCorrect":false},{"id":4,"text":"forEach()","isCorrect":false}]}],"react":[{"id":1,"text":"Для чего используется хук useEffect в React?","hasOptions":true,"options":[{"id":1,"text":"Хранения состояния компонента","isCorrect":false},{"id":2,"text":"Выполнения побочных эффектов","isCorrect":true},{"id":3,"text":"Мемоизации значений","isCorrect":false},{"id":4,"text":"Создания ссылок на DOM элементы","isCorrect":false}]},{"id":2,"text":"Что будет, если вторым аргументом в useEffect передать пустой массив []?","hasOptions":true,"options":[{"id":1,"text":"Ошибка","isCorrect":false},{"id":2,"text":"useEffect будет запущен 0 раз","isCorrect":false},{"id":3,"text":"useEffect будет запущен 1 раз","isCorrect":true},{"id":4,"text":"Нет верного ответа","isCorrect":false}]},{"id":3,"text":"Какой хук используется для создания состояния в компоненте?","hasOptions":true,"options":[{"id":1,"text":"useEffect","isCorrect":false},{"id":2,"text":"useState","isCorrect":true},{"id":3,"text":"useContext","isCorrect":false},{"id":4,"text":"useReducer","isCorrect":false}]},{"id":4,"text":"Какой элемент используется для группировки элементов без добавления дополнительных узлов в DOM?","hasOptions":true,"options":[{"id":1,"text":"<Group>","isCorrect":false},{"id":2,"text":"<Div>","isCorrect":false},{"id":3,"text":"<Fragment> (<>)","isCorrect":true},{"id":4,"text":"<List>","isCorrect":false}]},{"id":5,"text":"У нас есть массив со строками (arr), каждую из которых мы хотим отразить на странице. Какой метод массива нужно применить в return компонента?","hasOptions":true,"options":[{"id":1,"text":"{arr.forEach(...)}","isCorrect":false},{"id":2,"text":"{arr.filter(...)}","isCorrect":false},{"id":3,"text":"{arr.for(...)}","isCorrect":false},{"id":4,"text":"{arr.map(...)}","isCorrect":true}]},{"id":6,"text":"Какой элемент используется для обработки ошибок в дереве компонентов?","hasOptions":true,"options":[{"id":1,"text":"ErrorBoundary","isCorrect":true},{"id":2,"text":"CatchError","isCorrect":false},{"id":3,"text":"ErrorWrapper","isCorrect":false},{"id":4,"text":"ErrorCatcher","isCorrect":false}]},{"id":7,"text":"Какой (какие) аргумент(ы) принимает хук useMemo?","hasOptions":true,"options":[{"id":1,"text":"Функцию и массив зависимостей","isCorrect":true},{"id":2,"text":"Функцию и объект опций","isCorrect":false},{"id":3,"text":"Функцию","isCorrect":false},{"id":4,"text":"Массив зависимостей","isCorrect":false}]},{"id":8,"text":"Для чего используется хук useCallback в React?","hasOptions":true,"options":[{"id":1,"text":"Создания ссылок на DOM элементы","isCorrect":false},{"id":2,"text":"Хранения состояния компонента","isCorrect":false},{"id":3,"text":"Выполнения побочных эффектов","isCorrect":false},{"id":4,"text":"Мемоизации функций","isCorrect":true}]}]}');
-
 /***/ })
 
 /******/ 	});
@@ -1687,19 +1681,19 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.html */ "./src/index.html");
 /* harmony import */ var _index_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.sass */ "./src/index.sass");
-/* harmony import */ var _data_questions_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../data/questions.json */ "./data/questions.json");
 
 
+// import database from '../data/questions.json';
 
 window.addEventListener('DOMContentLoaded', () => {
-  // CLOSE PAGE и SHOW PAGE - функция скрыть / отобразить блок
+  // Функция для скрытия / отображения блока страницы
   function togglePage(pageSelector, show) {
     const page = document.querySelector(pageSelector);
     page.classList.toggle('show', show);
     page.classList.toggle('hide', !show);
   }
 
-  // START QUIZ
+  // Функция для начала викторины
   const startQuizBtn = document.querySelector('.welcome__button');
   const welcomePageSelector = '#display__welcome';
   const topicSelectionPageSelector = '#display__topic';
@@ -1711,76 +1705,75 @@ window.addEventListener('DOMContentLoaded', () => {
   }
   startQuiz(startQuizBtn, welcomePageSelector, topicSelectionPageSelector);
 
-  // Добавляем обработчики событий для кнопок тем
-  document.getElementById('html').addEventListener('click', () => handleTopicClick('html'));
-  document.getElementById('css').addEventListener('click', () => handleTopicClick('css'));
-  document.getElementById('javascript').addEventListener('click', () => handleTopicClick('javascript'));
-  document.getElementById('react').addEventListener('click', () => handleTopicClick('react'));
-
-  // const askedQuestions = [];
+  // Добавление обработчиков событий для кнопок выбора темы
+  ['html', 'css', 'javascript', 'react'].forEach(topic => {
+    const topicBtn = document.getElementById(topic);
+    topicBtn.addEventListener('click', () => handleTopicClick(topic));
+  });
   let currentQuestion = 1;
 
-  // HANDLE TOPIC CLICK - функция выбора темы
-
-  function handleTopicClick(topic) {
+  // Функция для обработки выбора темы
+  /*   function handleTopicClick(topic) {
     document.getElementById(topic).setAttribute('data-status', 'selected');
-
-    // Получаем список вопросов по выбранной теме
-    const questions = _data_questions_json__WEBPACK_IMPORTED_MODULE_2__[topic];
-
-    // Прячем блок с кнопками выбора темы
-    // Показываем блок с вопросами
+     // Получение списка вопросов по выбранной теме
+    const questions = database[topic];
+     // Скрытие блока с кнопками выбора темы и отображение блока с вопросами
     togglePage('#display__topic', false);
     togglePage('#display__game', true);
-
-    // Отображаем вопросы из выбранной темы
-    showQuestion(questions);
-
-    // Обновляем результаты прогресс бара
+     showQuestionAndAssignEventListeners(questions);
+     // Обновление состояния прогресс-бара
     updateProgressBar(questions, topic);
+  } */
 
-    // Получаем все кнопки ответов
-    assignEventListeners(questions);
+  async function handleTopicClick(topic) {
+    document.getElementById(topic).setAttribute('data-status', 'selected');
+    try {
+      // Получение списка вопросов по выбранной теме с помощью axios и json-server
+      const response = await axios.get("http://localhost:3001/".concat(topic));
+      const questions = response.data;
+
+      // Скрытие блока с кнопками выбора темы и отображение блока с вопросами
+      togglePage('#display__topic', false);
+      togglePage('#display__game', true);
+      showQuestionAndAssignEventListeners(questions);
+
+      // Обновление состояния прогресс-бара
+      updateProgressBar(questions, topic);
+    } catch (error) {
+      console.error('Ошибка при загрузке вопросов:', error);
+    }
   }
 
-  // SHOW QUESTION - функция отображает вопрос
-  let rightAnswers = [];
-  function showQuestion(questions) {
-    // Получаем индекс текущего вопроса
+  // Функция для отображения вопроса
+  function showQuestionAndAssignEventListeners(questions) {
     const currentIndex = currentQuestion - 1;
 
-    // Проверяем, есть ли вопрос с таким индексом
+    // Проверка существования вопроса с текущим индексом
     if (currentIndex >= questions.length || currentIndex < 0) {
       console.error('Вопрос с текущим индексом отсутствует.');
       return;
     }
-
-    // Получаем текущий вопрос
     const currentQuestionData = questions[currentIndex];
 
-    // Отображаем текст вопроса
+    // Отображение текста вопроса
     document.querySelector('.quiz__question').textContent = currentQuestionData.text;
 
-    // Очищаем блок с вариантами ответов или поле для ввода
+    // Очистка блока с вариантами ответов или поля для ввода
     const quizAnswers = document.querySelector('.quiz__answers');
-    if (!quizAnswers) {
-      console.error('Элемент .quiz__answers не найден.');
-      return; // Прекращаем выполнение функции, если элемент не найден
-    }
     quizAnswers.innerHTML = '';
 
-    // Отображаем варианты ответов из базы данных
+    // Отображение вариантов ответов из базы данных
     currentQuestionData.options.forEach((option, index) => {
       const button = document.createElement('button');
       button.classList.add('btn');
       button.textContent = "".concat(index + 1, ") ").concat(option.text);
       button.setAttribute('data-correct', option.isCorrect ? '1' : '0');
+      button.addEventListener('click', () => handleAnswerClick(button, questions));
       quizAnswers.appendChild(button);
     });
   }
 
-  // UPDATE COUNTER - функция обновления счетчика ответов
-
+  // Функция для обновления счетчика ответов
   function updateCounter(button) {
     const isCorrect = button.getAttribute('data-correct') === '1';
     const trueCounter = document.querySelector('[data-counter="true"]');
@@ -1792,67 +1785,28 @@ window.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // HANDLE ANSWER CLICK - функция выбора ответа на вопрос
-
-  // Создаем массив для ответов пользователя и правильных ответов
+  // Функция для обработки клика по варианту ответа
   const userAnswers = [];
   function handleAnswerClick(button, questions) {
+    const isCorrect = button.getAttribute('data-correct') === '1';
     updateCounter(button);
-    const isCorrect = button.dataset.correct === '1';
     const winnerAnswerDiv = document.querySelector('.quiz__winner-answer');
-
-    // Добавляем ответ пользователя в массив
     userAnswers.push(button.textContent);
-
-    // Добавляем класс и делаем кнопку неактивной для неправильных ответов
     if (!isCorrect) {
       button.classList.add('btn-false');
-
-      // Прячем блок с кнопками ответов
-      // Отображаем блок с правильным ответом
-      togglePage('#quiz__answers', false);
-      togglePage('.quiz__true', true);
-
-      // Устанавливаем текст в блоке с правильным ответом
-      winnerAnswerDiv.textContent = "".concat(button.textContent, " - \u043D\u0435 \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u0439 \u043E\u0442\u0432\u0435\u0442");
     }
-
-    // Для правильных ответов
-    if (isCorrect) {
-      // Прячем блок с кнопками ответов
-      // Отображаем блок с правильным ответом
-      togglePage('#quiz__answers', false);
-      togglePage('.quiz__true', true);
-
-      // Устанавливаем текст в блоке с правильным ответом
-      winnerAnswerDiv.textContent = "".concat(button.textContent, " - \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u0439 \u043E\u0442\u0432\u0435\u0442");
-    }
-
-    // Проверяем, если текущий вопрос последний
+    togglePage('#quiz__answers', false);
+    togglePage('.quiz__true', true);
+    winnerAnswerDiv.textContent = isCorrect ? "".concat(button.textContent, " - \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u0439 \u043E\u0442\u0432\u0435\u0442") : "".concat(button.textContent, " - \u043D\u0435 \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u0439 \u043E\u0442\u0432\u0435\u0442");
     if (currentQuestion === questions.length) {
-      // Если последний, вызываем функцию showResults
       showResults(questions);
     } else {
-      // Иначе, переходим к следующему вопросу
       nextQuestion(nextQuestionSelectBtn);
     }
     currentQuestion++;
   }
 
-  // ASSIGN EVENT LISTENERS - Перебор кнопок и при нажатии вызов handleAnswerClick
-
-  function assignEventListeners(questions) {
-    // Получаем все кнопки ответов
-    const answerButtons = document.querySelectorAll('.quiz__answers button');
-
-    // Перебираем все кнопки и назначаем обработчик события на каждую из них
-    answerButtons.forEach(button => {
-      button.addEventListener('click', () => handleAnswerClick(button, questions));
-    });
-  }
-
-  // UPDATE PROGRESS BAR - функция изменения прогрессбара
-
+  // Функция для обновления прогресс-бара
   function updateProgressBar(questions) {
     const progressBar = document.getElementById('quiz__progress');
     const progressCount = document.querySelector('.quiz__progress-title');
@@ -1862,50 +1816,33 @@ window.addEventListener('DOMContentLoaded', () => {
     progressBar.style.width = "".concat(percentage, "%");
   }
 
-  // // NEXT QUESTION - Перейти к следующему вопросу по нажатию кнопки "Следующий вопрос"
-
+  // Функция для перехода к следующему вопросу
   const nextQuestionSelectBtn = document.getElementById('next_question-btn');
   function nextQuestion(btn) {
     btn.addEventListener('click', () => {
-      // Прячем блок с правильным ответом
-      // Отображаем блок с кнопками ответов
       togglePage('.quiz__true', false);
       togglePage('#quiz__answers', true);
-
-      // Получаем выбранную тему
       const selectedTopicButton = document.querySelector('[data-status="selected"]');
       const topic = selectedTopicButton.id;
       handleTopicClick(topic);
     });
   }
 
-  // SHOW REZULTS - функция перехода к результатам
-
+  // Функция для отображения результатов
   function showResults(questions) {
-    // Закрываем блок с вариантами ответов
-    // Отображаем блок с правильным ответом
     togglePage('#quiz__answers', false);
     togglePage('.quiz__true', true);
-
-    // Заменяем текст на кнопке "Следующий вопрос" на "Закончить тестирование"
     const nextQuestionBtn = document.getElementById('next_question-btn');
     const btnSpan = nextQuestionBtn.querySelector('span');
     btnSpan.textContent = 'Закончить тестирование';
-
-    // Обработчик нажатия кнопки "Закончить тестирование"
     nextQuestionBtn.addEventListener('click', () => {
-      // Закрываем блок с вопросами
-      // Отображаем блок с правильным ответом
       togglePage('#display__game', false);
       togglePage('#rezult', true);
-
-      // Генерируем результаты
       generateResults(questions, userAnswers);
     });
   }
 
-  // GENERATE REZULTS - Изменяем содержимое страницы rezults
-
+  // Функция для генерации результатов
   function generateResults(questions, answers) {
     const rezultInnerAnswers = document.querySelector('.rezult__inner-answers');
     rezultInnerAnswers.innerHTML = ''; // Очищаем блок с ответами
@@ -1924,8 +1861,6 @@ window.addEventListener('DOMContentLoaded', () => {
       div.appendChild(correctAnswerPara);
       rezultInnerAnswers.appendChild(div);
     });
-
-    // Устанавливаем текст с количеством правильных ответов
     const rezultInnerScore = document.querySelector('.rezult__inner-score');
     const counter = document.querySelector('[data-counter="true"]').textContent;
     const scoreText = "\u0412\u044B \u043E\u0442\u0432\u0435\u0442\u0438\u043B\u0438 \u043D\u0430: ".concat(counter, "/").concat(questions.length);
@@ -1936,4 +1871,4 @@ window.addEventListener('DOMContentLoaded', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.6a3f5212ae6daa69fac0.js.map
+//# sourceMappingURL=main.bb93ff1f7bb09695dca7.js.map

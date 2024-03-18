@@ -55,6 +55,12 @@
 npm run start
 ```
 
+### Запуск сервера JSON-Server
+
+```shell
+npm run server
+```
+
 ### Сборка проекта без оптимизации
 
 ```shell

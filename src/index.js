@@ -1,6 +1,6 @@
 import './index.html';
 import './index.sass';
-import database from '../data/questions.json';
+// import database from '../data/questions.json';
 
 window.addEventListener('DOMContentLoaded', () => {
   // Функция для скрытия / отображения блока страницы
@@ -31,7 +31,7 @@ window.addEventListener('DOMContentLoaded', () => {
   let currentQuestion = 1;
 
   // Функция для обработки выбора темы
-  function handleTopicClick(topic) {
+  /*   function handleTopicClick(topic) {
     document.getElementById(topic).setAttribute('data-status', 'selected');
 
     // Получение списка вопросов по выбранной теме
@@ -45,6 +45,27 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Обновление состояния прогресс-бара
     updateProgressBar(questions, topic);
+  } */
+
+  async function handleTopicClick(topic) {
+    document.getElementById(topic).setAttribute('data-status', 'selected');
+
+    try {
+      // Получение списка вопросов по выбранной теме с помощью axios и json-server
+      const response = await axios.get(`http://localhost:3001/${topic}`);
+      const questions = response.data;
+
+      // Скрытие блока с кнопками выбора темы и отображение блока с вопросами
+      togglePage('#display__topic', false);
+      togglePage('#display__game', true);
+
+      showQuestionAndAssignEventListeners(questions);
+
+      // Обновление состояния прогресс-бара
+      updateProgressBar(questions, topic);
+    } catch (error) {
+      console.error('Ошибка при загрузке вопросов:', error);
+    }
   }
 
   // Функция для отображения вопроса
